@@ -45,34 +45,34 @@ Required tools:
 
 Proceed as follows:
 
-- Hot Glue as kink protection
-  Over time, the cables tend to break right where they enter the case, making the structure-borne noise sensor useless as you can’t install new cables. A drop of hot glue can act as a strain relief. Make sure the surface of the structure-borne noise sensor is clean before applying the hot glue. Roughing up the surface with some sandpaper can also increase the adhesion.
+-   Hot Glue as kink protection
+  Over time, the cables tend to break right where they enter the case, making the structure-borne noise sensor useless as you can’t install new cables. A drop of hot glue can act as a strain relief. Make sure the surface of the structure-borne noise sensor is clean before applying the hot glue. Roughing up the surface with some sandpaper can also increase the adhesion.  
    <img src="media\VisatonRearViewGlueing.png" alt="VisatonRearViewGlueing" style="width:300px;" /> <img src="media\VisatonRearView.png" alt="VisatonRearView" style="width:300px;" />
-- Disassemble the plug by unscrewing the back cover.   
-<img src="media\AudioJack.png" alt="AudioJack" style="width:400px;" />
--  Use a wire stripper to remove about 5 mm of insulation off the cables.
+-   Disassemble the plug by unscrewing the back cover.   
+  <img src="media\AudioJack.png" alt="AudioJack" style="width:400px;" />
+-   Use a wire stripper to remove about 5 mm of insulation off the cables.
 My cables already had the isolation removed but you might need to remove yours.
--  Tin the end of the cable.
--  Turn on the soldering iron, wait for it to heat up, and set it down on the table without letting the tip touch the table. Hold the cable in one hand and the solder in the other. You can also use a helping hand to keep the cable in place while holding the soldering iron and solder with your hands.
+-    Tin the end of the cable.
+-    Turn on the soldering iron, wait for it to heat up, and set it down on the table without letting the tip touch the table. Hold the cable in one hand and the solder in the other. You can also use a helping hand to keep the cable in place while holding the soldering iron and solder with your hands.
 Apply a little bit of solder to the soldering iron to improve the thermal contact and set the cable down on top of it. Now touch the solder to the cable until it melts and flows between the strands.
 <img src="media\AudioJackCableTinning.png" alt="AudioJackCableTinning" style="width:400px;" />
--  Trim the now tinned section to about 4 or 5 mm.
+-    Trim the now tinned section to about 4 or 5 mm.
 <img src="media\AudioJackWireCutting.png" alt="AudioJackWireCutting" style="width:400px;" />
--  Unroll the cable and make sure there are no knots. Then thread the cable through the back cover and the plastic insulator.
+-    Unroll the cable and make sure there are no knots. Then thread the cable through the back cover and the plastic insulator.
 <img src="media\AudioJackPreparation.png" alt="AudioJackPreparation" style="width:400px;" />
--  Apply some solder to the solder tags
+-    Apply some solder to the solder tags
 Hold the plug in place with helping hands or a vice. Then apply some solder to the longest and shortest solder tags (see image). This will make it easier to solder the wires later. Don’t apply the heat for too long or the plastic parts might melt.
 <img src="media\AudioJackClothespin.png" alt="AudioJackClothespin" style="width:400px;" />
--  Solder the cables to the plug
+-    Solder the cables to the plug
 The polarity of the structure-borne noise sensor doesn’t matter, but I’m going with convention and treat the black wire as ground. Use the helping hand to position the wire on the longest soldering tab. Then solder the wire to the tab.
 <img src="media\AudioJackSoldering.png" alt="AudioJackSoldering" style="width:400px;" />
--  Repeat for the other wire. You can use any of the two shorter tabs, they are for the left and right channel respectively.
+-    Repeat for the other wire. You can use any of the two shorter tabs, they are for the left and right channel respectively.
 <img src="media\AudioJackSoldered.png" alt="AudioJackSoldered" style="width:400px;" />
--  Use pliers to crimp the parts of the long tab around the black wire.
+-    Use pliers to crimp the parts of the long tab around the black wire.
 <img src="media\AudioJackStrainRelief.png" alt="AudioJackStrainRelief" style="width:400px;" />
--  Pull the plastic insulation over the solder tabs and screw the cover on. The Connector is now done!
+-    Pull the plastic insulation over the solder tabs and screw the cover on. The Connector is now done!
   <img src="media\AudioJackInsulation.png" alt="AudioJackInsuliation" style="width:300px;" /> <img src="media\AudioJackAssembled.png" alt="AudioJackAssembled" style="width:300px;" />
--  It is important that the structure-borne noise sensor is firmly mounted to the rope way cable. One way to achieve this is to screw the sensor to a screw clamp:
+-    It is important that the structure-borne noise sensor is firmly mounted to the rope way cable. One way to achieve this is to screw the sensor to a screw clamp:  
   <img src="media\VisatonScrewClamp.png" alt="VisatonScrewClamp" style="width:400px;" />
 
 > ToDo (optional): Neues Bild mit oranger Zwinge und gedrucktem Prisma
