@@ -47,32 +47,32 @@ Proceed as follows:
 
 - Hot Glue as kink protection
   Over time, the cables tend to break right where they enter the case, making the structure-borne noise sensor useless as you can’t install new cables. A drop of hot glue can act as a strain relief. Make sure the surface of the structure-borne noise sensor is clean before applying the hot glue. Roughing up the surface with some sandpaper can also increase the adhesion.
-   <img src="media\VisatonRearViewGlueing.png" alt="VisatonRearViewGlueing" style="width:400px;" /> <img src="media\VisatonRearView.png" alt="VisatonRearView" style="width:400px;" />
-- Disassemble the plug by unscrewing the back cover. 
+   <img src="media\VisatonRearViewGlueing.png" alt="VisatonRearViewGlueing" style="width:300px;" /> <img src="media\VisatonRearView.png" alt="VisatonRearView" style="width:300px;" />
+- Disassemble the plug by unscrewing the back cover.   
 <img src="media\AudioJack.png" alt="AudioJack" style="width:400px;" />
-- Use a wire stripper to remove about 5 mm of insulation off the cables.
+-  Use a wire stripper to remove about 5 mm of insulation off the cables.
 My cables already had the isolation removed but you might need to remove yours.
-- Tin the end of the cable.
-- Turn on the soldering iron, wait for it to heat up, and set it down on the table without letting the tip touch the table. Hold the cable in one hand and the solder in the other. You can also use a helping hand to keep the cable in place while holding the soldering iron and solder with your hands.
+-  Tin the end of the cable.
+-  Turn on the soldering iron, wait for it to heat up, and set it down on the table without letting the tip touch the table. Hold the cable in one hand and the solder in the other. You can also use a helping hand to keep the cable in place while holding the soldering iron and solder with your hands.
 Apply a little bit of solder to the soldering iron to improve the thermal contact and set the cable down on top of it. Now touch the solder to the cable until it melts and flows between the strands.
 <img src="media\AudioJackCableTinning.png" alt="AudioJackCableTinning" style="width:400px;" />
-- Trim the now tinned section to about 4 or 5 mm.
+-  Trim the now tinned section to about 4 or 5 mm.
 <img src="media\AudioJackWireCutting.png" alt="AudioJackWireCutting" style="width:400px;" />
-- Unroll the cable and make sure there are no knots. Then thread the cable through the back cover and the plastic insulator.
+-  Unroll the cable and make sure there are no knots. Then thread the cable through the back cover and the plastic insulator.
 <img src="media\AudioJackPreparation.png" alt="AudioJackPreparation" style="width:400px;" />
-- Apply some solder to the solder tags
+-  Apply some solder to the solder tags
 Hold the plug in place with helping hands or a vice. Then apply some solder to the longest and shortest solder tags (see image). This will make it easier to solder the wires later. Don’t apply the heat for too long or the plastic parts might melt.
 <img src="media\AudioJackClothespin.png" alt="AudioJackClothespin" style="width:400px;" />
-- Solder the cables to the plug
+-  Solder the cables to the plug
 The polarity of the structure-borne noise sensor doesn’t matter, but I’m going with convention and treat the black wire as ground. Use the helping hand to position the wire on the longest soldering tab. Then solder the wire to the tab.
 <img src="media\AudioJackSoldering.png" alt="AudioJackSoldering" style="width:400px;" />
-- Repeat for the other wire. You can use any of the two shorter tabs, they are for the left and right channel respectively.
+-  Repeat for the other wire. You can use any of the two shorter tabs, they are for the left and right channel respectively.
 <img src="media\AudioJackSoldered.png" alt="AudioJackSoldered" style="width:400px;" />
-- Use pliers to crimp the parts of the long tab around the black wire.
+-  Use pliers to crimp the parts of the long tab around the black wire.
 <img src="media\AudioJackStrainRelief.png" alt="AudioJackStrainRelief" style="width:400px;" />
-- Pull the plastic insulation over the solder tabs and screw the cover on. The Connector is now done!
-  <img src="media\AudioJackInsulation.png" alt="AudioJackInsuliation" style="width:400px;" /> <img src="media\AudioJackAssembled.png" alt="AudioJackAssembled" style="width:400px;" />
-- It is important that the structure-borne noise sensor is firmly mounted to the rope way cable. One way to achieve this is to screw the sensor to a screw clamp:
+-  Pull the plastic insulation over the solder tabs and screw the cover on. The Connector is now done!
+  <img src="media\AudioJackInsulation.png" alt="AudioJackInsuliation" style="width:300px;" /> <img src="media\AudioJackAssembled.png" alt="AudioJackAssembled" style="width:300px;" />
+-  It is important that the structure-borne noise sensor is firmly mounted to the rope way cable. One way to achieve this is to screw the sensor to a screw clamp:
   <img src="media\VisatonScrewClamp.png" alt="VisatonScrewClamp" style="width:400px;" />
 
 > ToDo (optional): Neues Bild mit oranger Zwinge und gedrucktem Prisma
@@ -185,7 +185,7 @@ VNC is used to remotely manage your Raspberry Pi via internet connection. VNC-Se
     **Important: Remember your 'VNC connect' credentials, you will need them later!**
 
 -   Activate 'HOME' edition of VNC Connect  
-    ![ScrVncActivate](media\ScrVncActivate.png)
+    <img src="media\ScrVncActivate.png" alt="ScrVncActivate" style="zoom:100%;" />
 
 **Setup VNC on your Raspberry Pi**
 
@@ -265,7 +265,7 @@ If you now type `ls` again, the launch script will now appear in green color, in
 
 To start DarkIce automatically on boot, integrate the script launch_darkice.sh into startup procedure:
 
-- Use the command `pwd`  to display the path to the launch_darkice.sh script and copy it by marking it with the mouse, right clicking and selecting "Copy".
+- Use the command `pwd`  to display the path to the launch_darkice.sh script and copy it by marking it with the mouse, right clicking and selecting "Copy".  
 <img src="media\ScrDarkicepwd.png" alt="ScrDarkicepwd" style="width:400px;" />
 
 - Open the system-wide crontab with Nano editor
@@ -340,13 +340,13 @@ Required parts:
 
 All 3D-printing files  (STL files) are available for download. If the seal insert needs to be adapted, the Fusion 360 file is also available.
 
-- Both the cable for the USB-C power-supply and the microphone cable with the 3.5mm Mini-Jack need to pass through the cable gland without removing the plugs. To make this possible, we print a halved sealing with a flexible filament (NinjaFlex TPE). We also print the nut to fix the cable gland in the universal case.
-  
+- Both the cable for the USB-C power-supply and the microphone cable with the 3.5mm Mini-Jack need to pass through the cable gland without removing the plugs. To make this possible, we print a halved sealing with a flexible filament (NinjaFlex TPE). We also print the nut to fix the cable gland in the universal case.   
+<img src="media\CableGlandSealsAndNut.png" alt="CableGlandSealsAndNut" style="width:400px;float:left" />  
 
-<img src="media\CableGlandSealsAndNut.png" alt="CableGlandSealsAndNut" style="width:400px;float:left" />
 
-- Drill a 20 mm hole into the universal case using a peeling drill:  
-  <img src="media\CaseDrilling1.png" alt="CaseDrilling1" style="height:200px;" /> <img src="media\CaseDrilling2.png" alt="CaseDrilling2" style="height:200px;" /> <img src="media\CaseDrilling3.png" alt="CaseDrilling3" style="height:200px;" />
+
+-  Drill a 20 mm hole into the universal case using a peeling drill:  
+  <img src="media\CaseDrilling1.png" alt="CaseDrilling1" style="height:170px;" /> <img src="media\CaseDrilling2.png" alt="CaseDrilling2" style="height:170px;" /> <img src="media\CaseDrilling3.png" alt="CaseDrilling3" style="height:170px;" />
   
 - Assemble the cable gland with the cables. Guide the cable through the seal and fit the cable gland.
   <img src="media\CableGlandAssembly.png" alt="CableGlandAssembly" style="width:400px;" /><img src="media\CableGlandAssembled.JPG" alt="CableGlandAssembled.JPG" style="width:400px;" />
@@ -359,7 +359,7 @@ All 3D-printing files  (STL files) are available for download. If the seal inser
   > ToDo (optional): Haken zum Aufhängen / montieren des Gehäuses anbringen.
   >
 
-- Connect all other Equipment into the Case:
+- Connect all other Equipment into the Case:  
   <img src="media\CaseAssebled.png" alt="CaseAssebled" style="width:400px;" />
 
 ## Audio HAT 'IQaudio Codec Zero'
@@ -389,7 +389,7 @@ The microphone input of the USB sound card from the basic configuration is not v
 
 - Get the preconfigured Alsa settings (mixer controls)
 
-  `git clone https://github.com/iqaudio/Pi-Codec.git`
+  `git clone https://github.com/iqaudio/Pi-Codec.git`  
   <img src="media\ScrCodecZeroGitClone.png" alt="ScrCodecZeroGitClone" style="width:400px;" />
   
 - Load the configuration file, replace the number at the end of the command with the card number identified with arecord above
@@ -399,7 +399,7 @@ The microphone input of the USB sound card from the basic configuration is not v
 - Start AlsaMixer to configure the audio levels
   `alsamixer`
   
-- Press F6, select 'IQaudIOCODEC' and press Enter
+- Press F6, select 'IQaudIOCODEC' and press Enter  
   <img src="media\ScrCodecZeroSelectSoundCard.png" alt="ScrCodecZeroSelectSoundCard" style="width:400px;" />
   
 - Press F4 for capture settings, move with the cursor to 'Mic 2' and then set the level with Up key to the max
@@ -490,7 +490,7 @@ The most important settings are described below. Detailed information about the 
 - The hardware watchdog allows the system to restart automatically if no heart beat is detected. In the tab 'System Task', set time to 5 minutes:  
   <img src="media\ScrPiJuiceSettingsHatSystemTask.png" alt="ScrPiJuiceSettingsHatSystemTask" style="width:400px;" />
   Note: At shutdown pijuice_sys.py disables the watchdog. Normally the watchdog is only active when the PiJuice service (pijuice_sys.py) is running and the watchdog is enabled. If you want the system to restart automatically after an (accidental) shutdown, you must comment out the deactivation of the watchdog during shutdown in pijuice_sys.py ([Link](https://github.com/PiSupply/PiJuice/issues/492)). 
-- Stop system if charge level is below 'Minimum charge:
+- Stop system if charge level is below 'Minimum charge:  
   <img src="media\ScrPiJuiceSettingsHatSystemEvents.png" alt="ScrPiJuiceSettingsHatSystemEvents" style="width:400px;" />
 - Press 'Apply' and enter `reboot`
 - PiJuice is now ready to use.
