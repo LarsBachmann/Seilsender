@@ -7,7 +7,7 @@ Interested? Then join our project. The instructions below describe how you can s
 
 You can find more information at [seilsender.ch](http://www.seilsender.ch/).
 
-<img src="media\SeilbahnMünsterfähre.png" alt="SeilbahnMünsterfähre.png" style="height:200px;" /> <img src="media\SeilbahnStutzObsaum.png" alt="SeilbahnStutzObsaum" style="height:200px;" /> <img src="media\HwOverviewCaseOpen.png" alt="HwOverviewCaseOpen" style="height:200px;" /> 
+<img src="media\SeilbahnMünsterfähre.png" alt="SeilbahnMünsterfähre.png" style="height:150px;" /> <img src="media\SeilbahnStutzObsaum.png" alt="SeilbahnStutzObsaum" style="height:150px;" /> <img src="media\HwOverviewCaseOpen.png" alt="HwOverviewCaseOpen" style="height:150px;" /> 
 
 Pictures: Münsterfähre (cable ferry), Basel, CH / Material ropeway, Stutz-Obsaum, CH / Seilsender Prototype with case open
 
