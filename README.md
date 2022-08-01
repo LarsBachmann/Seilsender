@@ -57,24 +57,24 @@ My cables already had the isolation removed but you might need to remove yours.
 Apply a little bit of solder to the soldering iron to improve the thermal contact and set the cable down on top of it. Now touch the solder to the cable until it melts and flows between the strands.  
     <img src="media\AudioJackCableTinning.png" alt="AudioJackCableTinning" style="width:400px;" />
 
--   Trim the now tinned section to about 4 or 5 mm.
+-   Trim the now tinned section to about 4 or 5 mm.  
     <img src="media\AudioJackWireCutting.png" alt="AudioJackWireCutting" style="width:400px;" />
 
 -   Unroll the cable and make sure there are no knots. Then thread the cable through the back cover and the plastic insulator.
     <img src="media\AudioJackPreparation.png" alt="AudioJackPreparation" style="width:400px;" />
 
 -   Apply some solder to the solder tags
-Hold the plug in place with helping hands or a vice. Then apply some solder to the longest and shortest solder tags (see image). This will make it easier to solder the wires later. Don’t apply the heat for too long or the plastic parts might melt.
+Hold the plug in place with helping hands or a vice. Then apply some solder to the longest and shortest solder tags (see image). This will make it easier to solder the wires later. Don’t apply the heat for too long or the plastic parts might melt.  
     <img src="media\AudioJackClothespin.png" alt="AudioJackClothespin" style="width:400px;" />
 
 -   Solder the cables to the plug
 The polarity of the structure-borne noise sensor doesn’t matter, but I’m going with convention and treat the black wire as ground. Use the helping hand to position the wire on the longest soldering tab. Then solder the wire to the tab.
-   <img src="media\AudioJackSoldering.png" alt="AudioJackSoldering" style="width:400px;" />
+    <img src="media\AudioJackSoldering.png" alt="AudioJackSoldering" style="width:400px;" />
 
 -   Repeat for the other wire. You can use any of the two shorter tabs, they are for the left and right channel respectively.
     <img src="media\AudioJackSoldered.png" alt="AudioJackSoldered" style="width:400px;" />
 
--   Use pliers to crimp the parts of the long tab around the black wire.
+-   Use pliers to crimp the parts of the long tab around the black wire.  
    <img src="media\AudioJackStrainRelief.png" alt="AudioJackStrainRelief" style="width:400px;" />
 
 -   Pull the plastic insulation over the solder tabs and screw the cover on. The Connector is now done!
@@ -228,7 +228,7 @@ To stream your recordings to the Seilsender-Website, you have to apply for an of
 
 DarkIce records audio from an audio interface (e.g. sound card), encodes it and sends it to the IceCast streaming server.
 
--   Open a console Window on your Raspberry Pi with clicking the black button in the top left. 
+-   Open a console Window on your Raspberry Pi with clicking the black button in the top left.  
     <img src="media\ScrRaspiDesktopConsole.png" alt="ScrRaspiDesktopConsole" style="zoom:100%;" />
     
 -   Install DarkIce with the following command: 
@@ -250,19 +250,19 @@ DarkIce records audio from an audio interface (e.g. sound card), encodes it and 
 
 - The file launch_darkice.sh is a simple script to launch DarkIce, but it must be made executable first:
 `sudo chmod 777 launch_darkice.sh`
-If you now type `ls` again, the launch script will now appear in green color, indicating that it is an executable file.
-<img src="media\ScrDarkiceExecutable.png" alt="ScrDarkiceExecutable" style="width:400px;" />
+If you now type `ls` again, the launch script will now appear in green color, indicating that it is an executable file.  
+  <img src="media\ScrDarkiceExecutable.png" alt="ScrDarkiceExecutable" style="width:400px;" />
 -   Open the DarkIce configuration file with Nano (a command line editor) to set your mountpoint and a password:
     `nano darkice.cfg`
--   Move down with arrow keys (no mouse) to the appropriate section and set your mountpoint and password (red frame). Optionally, you can set the parameters 'name' and 'description' (parameters are shown when life-streaming your recordings with IceCast).
+-   Move down with arrow keys (no mouse) to the appropriate section and set your mountpoint and password (red frame). Optionally, you can set the parameters 'name' and 'description' (parameters are shown when life-streaming your recordings with IceCast).  
     <img src="media\ScrDarkiceCfg.png" alt="ScrDarkiceCfg" style="width:700px;" />
 - Save configuration file with CTRL+O, then press Enter to confirm filename and exit Nano editor with CTRL+X.
 -   The configuration of DarkIce is finished. Now test if everything is working:
 
-  -   Plug in the USB soundcard to the Raspberry Pi and connect the structure-borne noise sensor to the microphone input (red socket) of the soundcard
-      <img src="media\HwSoundCard.png" alt="HwSoundCard" style="width:300px;" />
-  -   Type `darkice -c ./darkice.cfg`  into the console. DarkIce will start streaming:
-      <img src="media\ScrDarkiceStart.png" alt="ScrDarkiceStart" style="width:700px;" />
+  - Plug in the USB soundcard to the Raspberry Pi and connect the structure-borne noise sensor to the microphone input (red socket) of the soundcard  
+    <img src="media\HwSoundCard.png" alt="HwSoundCard" style="width:300px;" />
+  - Type `darkice -c ./darkice.cfg`  into the console. DarkIce will start streaming:
+    <img src="media\ScrDarkiceStart.png" alt="ScrDarkiceStart" style="width:700px;" />
   -   The warning 'Could not set POSIX real-time scheduling...' can be ignored.
   -   Open the URL http://seilsender.babros.ch/ on your PC and check if your stream is listed:
       <img src="media\ScrIcecast2Test.png" alt="ScrIcecast2Test" style="width:300px;" />
@@ -274,7 +274,7 @@ If you now type `ls` again, the launch script will now appear in green color, in
 To start DarkIce automatically on boot, integrate the script launch_darkice.sh into startup procedure:
 
 - Use the command `pwd`  to display the path to the launch_darkice.sh script and copy it by marking it with the mouse, right clicking and selecting "Copy".  
-<img src="media\ScrDarkicepwd.png" alt="ScrDarkicepwd" style="width:400px;" />
+  <img src="media\ScrDarkicepwd.png" alt="ScrDarkicepwd" style="width:400px;" />
 
 - Open the system-wide crontab with Nano editor
   `sudo nano /etc/crontab`
@@ -348,24 +348,24 @@ Required parts:
 
 All 3D-printing files  (STL files) are available for download. If the seal insert needs to be adapted, the Fusion 360 file is also available.
 
-- Both the cable for the USB-C power-supply and the microphone cable with the 3.5mm Mini-Jack need to pass through the cable gland without removing the plugs. To make this possible, we print a halved sealing with a flexible filament (NinjaFlex TPE). We also print the nut to fix the cable gland in the universal case.   
-<img src="media\CableGlandSealsAndNut.png" alt="CableGlandSealsAndNut" style="width:400px;float:left" />  
+- Both the cable for the USB-C power-supply and the microphone cable with the 3.5mm Mini-Jack need to pass through the cable gland without removing the plugs. To make this possible, we print a halved sealing with a flexible filament (NinjaFlex TPE). We also print the nut to fix the cable gland in the universal case.  
+  <img src="media\CableGlandSealsAndNut.png" alt="CableGlandSealsAndNut" style="width:400px;float:left" />  
 
 
 
--  Drill a 20 mm hole into the universal case using a peeling drill:  
+- Drill a 20 mm hole into the universal case using a peeling drill:  
   <img src="media\CaseDrilling1.png" alt="CaseDrilling1" style="height:170px;" /> <img src="media\CaseDrilling2.png" alt="CaseDrilling2" style="height:170px;" /> <img src="media\CaseDrilling3.png" alt="CaseDrilling3" style="height:170px;" />
   
 - Assemble the cable gland with the cables. Guide the cable through the seal and fit the cable gland.
   <img src="media\CableGlandAssembly.png" alt="CableGlandAssembly" style="width:400px;" /><img src="media\CableGlandAssembled.JPG" alt="CableGlandAssembled.JPG" style="width:400px;" />
   
-- To fix the Raspberry Pi in the universal case, we 3D print a mounting frame. Assemble the Raspberry Pi into the case. The following 3D-Model shows you how to:
+- To fix the Raspberry Pi in the universal case, we 3D print a mounting frame. Assemble the Raspberry Pi into the case. The following 3D-Model shows you how to:  
   <img src="media\CaseWithRaspiWoPiJuice.png" alt="CaseWithRaspiWoPiJuice" style="width:600px;" />
 
-  > ToDo (optional): Schrauben + Abstandhalter beschreiben
-  >
-  > ToDo (optional): Haken zum Aufhängen / montieren des Gehäuses anbringen.
-  >
+> ToDo (optional): Schrauben + Abstandhalter beschreiben
+>
+> ToDo (optional): Haken zum Aufhängen / montieren des Gehäuses anbringen.
+>
 
 - Connect all other Equipment into the Case:  
   <img src="media\CaseAssebled.png" alt="CaseAssebled" style="width:400px;" />
@@ -400,7 +400,7 @@ The microphone input of the USB sound card from the basic configuration is not v
   `git clone https://github.com/iqaudio/Pi-Codec.git`  
   <img src="media\ScrCodecZeroGitClone.png" alt="ScrCodecZeroGitClone" style="width:400px;" />
   
-- Load the configuration file, replace the number at the end of the command with the card number identified with arecord above
+- Load the configuration file, replace the number at the end of the command with the card number identified with arecord above  
   `sudo alsactl restore -f Pi-Codec/IQaudIO_Codec_StereoMIC_record_and_HP_playback.state 2`
   <img src="media\ScrCodecZeroAlsactlRestore.png" alt="ScrCodecZeroAlsactlRestore" style="width:700px;" />
   
