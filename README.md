@@ -393,7 +393,8 @@ The microphone input of the USB sound card from the basic configuration is not v
 - If F5 is pressed, almost all codec parameters can be adjusted (see codec data sheet, [link](https://www.renesas.com/eu/en/products/analog-products/audio-video/audio-codecs/da7212-ultra-low-power-stereo-codec-650-w-always-power-mode)).
 - Quit AlsaMixer with ESC key and  
   `reboot`
-- Test: DarkIce runs now with the Audio HAT 'IQaudio Codec Zero' with internal microphone. Open the URL http://seilsender.babros.ch/ on your PC and check if your stream is listed and played. Connect your structure-borne noise sensor with the 3.5mm jack, the mic source will switch automatically.  
+- Test: DarkIce runs now with the Audio HAT 'IQaudio Codec Zero' with internal microphone. Open the URL http://seilsender.babros.ch/ on your PC and check if your stream is listed and played.  
+  Connect your structure-borne noise sensor with the 3.5mm jack, the mic source will switch automatically.  
 - **Important**: Depending on the place of use, the input sensitivity of the microphone input must be adjusted. To display the level of the stream, for example, go to the website https://p-node.org/vumeter/ and enter the URL of your stream.  
   <img src="media\ScrCodecZeroVuMeter.png" alt="ScrCodecZeroVuMeter" style="width:700px;" />
 - The level display shows 0dB at maximum level (full scale). Ideally, the recording level should be as high as possible, but should never reach 0dB, otherwise strong signal distortions will occur (clipping).
