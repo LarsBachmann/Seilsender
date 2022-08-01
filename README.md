@@ -144,12 +144,12 @@ The easiest way to set up the Raspberry Pi is to connect a mouse, keyboard and m
   <img src="media\ScrFirstBootCreateUser.png" alt="ScrFirstBootCreateUser" style="width:400px;" />
   - Enter a username  
     The examples in this manual were all carried out with the user 'seilsender'. It may be easiest for you to use the user 'seilsender' as well.
-  - Untick the “Hide characters” checkbox to see if your password was entered correctly.  Enter your new password.  
-  **Important:** Remember your Raspberry Pi username a password, you will need them later! Username and password are case sensitive.
+  - Untick the “Hide characters” checkbox to see if your password was entered correctly.  Enter your new password.
+  - **Important:** Remember your Raspberry Pi username a password, you will need them later! Username and password are case sensitive.
 - 'Select Wi-Fi Network' dialog: The system searches available Wi-Fi Networks.
 - If you want to connect via ethernet cable, press 'Skip', else
-- select the desired Wi-Fi Network, press 'Next and enter your Wi-Fi password.
-  Note: At this point, the keyboard layout is not yet set, so entering the password may be a little tricky. Untick 'Hide Characters'.
+- select the desired Wi-Fi Network, press 'Next and enter your Wi-Fi password.  
+  **Note**: At this point, the keyboard layout is not yet set, so entering the password may be a little tricky. Untick 'Hide Characters'.
 - The next step is to update the software. This may take a few minutes. Please be patient…
 - Click 'Restart' to reboot your Raspberry Pi.
 - After restarting the Pi, you should be shown your desktop.  
@@ -186,8 +186,8 @@ VNC is used to remotely manage your Raspberry Pi via internet connection. VNC-Se
   <img src="media\ScrVncSignin.png" alt="ScrVncSignin" style="width:400px;" />
 - Sign in with your 'VNC connect' credentials and follow the instructions.
 - Enter an additional VNC password for this device:  
-  <img src="media\ScrVncAuthentication.png" alt="ScrVncAuthentication" style="width:400px;" />  
-  **Important: Remember your VNC password, you will need it later to access your Raspberry Pi**
+  <img src="media\ScrVncAuthentication.png" alt="ScrVncAuthentication" style="width:400px;" />
+- **Important: Remember your VNC password, you will need it later to access your Raspberry Pi**
 - On the summary tab, it is possible to enter an individual name for VNC (makes in easier if you have more than one device within VNC connect)  
   <img src="media\ScrVncSummary.png" alt="ScrVncSummary" style="width:400px;" />
 - Click 'Apply' to finish setup
@@ -299,8 +299,8 @@ Required parts:
 If there’s no Wi-Fi or Ethernet available, you can use an LTE USB stick to connect to the cellular network. For this guide I used the Huawei LTE-Stick E3372h-320, but other sticks should work about the same.
 
 - Open your LTE-Stick and make your Data SIM card ready and insert it  
-  <img src="media\HwLteStickOpen.png" alt="HwLteStickOpen" style="width:400px;" />  
-  **Important: Make sure that the contacts of your Data SIM card are oriented towards the LTE-Stick**
+  <img src="media\HwLteStickOpen.png" alt="HwLteStickOpen" style="width:400px;" />
+- **Important: Make sure that the contacts of your Data SIM card are oriented towards the LTE-Stick**
 - Connect the LTE Stick with an USB-Port on your PC.
 - Proceed according to the instructions for your LTE-Stick. Typically, a configuration wizard starts automatically. If not, open http://192.168.8.1 in your browser. Follow the instructions in the wizard. Make sure that SIM PIN entry is disabled.
 - Disconnect your PC from the internet (Wi-Fi, Ethernet cable) and check if you have internet access via LTE Stick.
@@ -454,7 +454,7 @@ The most important settings are described below. Detailed information about the 
   <img src="media\ScrPiJuiceSettingsHatConfigButtons.png" alt="ScrPiJuiceSettingsHatConfigButtons" style="width:400px;" /> 
 - The hardware watchdog allows the system to restart automatically if no heart beat is detected. In the tab 'System Task', set time to 5 minutes:  
   <img src="media\ScrPiJuiceSettingsHatSystemTask.png" alt="ScrPiJuiceSettingsHatSystemTask" style="width:400px;" />  
-  **Note**: At shutdown pijuice_sys.py disables the watchdog. Normally the watchdog is only active when the PiJuice service (pijuice_sys.py) is running and the watchdog is enabled. If you want the system to restart automatically after an (accidental) shutdown, you must comment out the deactivation of the watchdog during shutdown in pijuice_sys.py ([Link](https://github.com/PiSupply/PiJuice/issues/492)). 
+- **Note**: At shutdown pijuice_sys.py disables the watchdog. Normally the watchdog is only active when the PiJuice service (pijuice_sys.py) is running and the watchdog is enabled. If you want the system to restart automatically after an (accidental) shutdown, you must comment out the deactivation of the watchdog during shutdown in pijuice_sys.py ([Link](https://github.com/PiSupply/PiJuice/issues/492)). 
 - Stop system if charge level is below 'Minimum charge:  
   <img src="media\ScrPiJuiceSettingsHatSystemEvents.png" alt="ScrPiJuiceSettingsHatSystemEvents" style="width:400px;" />
 - Press 'Apply' and enter  
