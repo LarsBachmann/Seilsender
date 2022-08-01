@@ -54,7 +54,7 @@ Proceed as follows:
 My cables already had the isolation removed but you might need to remove yours.
 -   Tin the end of the cable.
 -   Turn on the soldering iron, wait for it to heat up, and set it down on the table without letting the tip touch the table. Hold the cable in one hand and the solder in the other. You can also use a helping hand to keep the cable in place while holding the soldering iron and solder with your hands.
-Apply a little bit of solder to the soldering iron to improve the thermal contact and set the cable down on top of it. Now touch the solder to the cable until it melts and flows between the strands.
+Apply a little bit of solder to the soldering iron to improve the thermal contact and set the cable down on top of it. Now touch the solder to the cable until it melts and flows between the strands.  
     <img src="media\AudioJackCableTinning.png" alt="AudioJackCableTinning" style="width:400px;" />
 
 -   Trim the now tinned section to about 4 or 5 mm.
