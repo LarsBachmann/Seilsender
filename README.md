@@ -44,43 +44,42 @@ Required tools:
 
 Proceed as follows:
 
-- Hot Glue as kink protection
+- Hot Glue as kink protection  
   Over time, the cables tend to break right where they enter the case, making the structure-borne noise sensor useless as you can’t install new cables. A drop of hot glue can act as a strain relief. Make sure the surface of the structure-borne noise sensor is clean before applying the hot glue. Roughing up the surface with some sandpaper can also increase the adhesion.  
-   <img src="media\VisatonRearViewGlueing.png" alt="VisatonRearViewGlueing" style="width:300px;" /> <img src="media\VisatonRearView.png" alt="VisatonRearView" style="width:300px;" />
+  <img src="media\VisatonRearViewGlueing.png" alt="VisatonRearViewGlueing" style="width:300px;" /> <img src="media\VisatonRearView.png" alt="VisatonRearView" style="width:300px;" />
 - Disassemble the plug by unscrewing the back cover.  
   <img src="media\AudioJack.png" alt="AudioJack" style="width:400px;" />
 
 - Use a wire stripper to remove about 5 mm of insulation off the cables. My cables already had the isolation removed but you might need to remove yours.  
   <img src="media\AudioJackWireStripped.png" alt="AudioJackWireStripped" style="width:400px;" />
--   Tin the end of the cable.
--   Turn on the soldering iron, wait for it to heat up, and set it down on the table without letting the tip touch the table. Hold the cable in one hand and the solder in the other. You can also use a helping hand to keep the cable in place while holding the soldering iron and solder with your hands.
+- Tin the end of the cable.
+- Turn on the soldering iron, wait for it to heat up, and set it down on the table without letting the tip touch the table. Hold the cable in one hand and the solder in the other. You can also use a helping hand to keep the cable in place while holding the soldering iron and solder with your hands.
 Apply a little bit of solder to the soldering iron to improve the thermal contact and set the cable down on top of it. Now touch the solder to the cable until it melts and flows between the strands.  
-    <img src="media\AudioJackCableTinning.png" alt="AudioJackCableTinning" style="width:400px;" />
+ <img src="media\AudioJackCableTinning.png" alt="AudioJackCableTinning" style="width:400px;" />
 
--   Trim the now tinned section to about 4 or 5 mm.  
-    <img src="media\AudioJackWireCutting.png" alt="AudioJackWireCutting" style="width:400px;" />
+- Trim the now tinned section to about 4 or 5 mm.  
+  <img src="media\AudioJackWireCutting.png" alt="AudioJackWireCutting" style="width:400px;" />
 
--   Unroll the cable and make sure there are no knots. Then thread the cable through the back cover and the plastic insulator.
-    <img src="media\AudioJackPreparation.png" alt="AudioJackPreparation" style="width:400px;" />
+- Unroll the cable and make sure there are no knots. Then thread the cable through the back cover and the plastic insulator.
+  <img src="media\AudioJackPreparation.png" alt="AudioJackPreparation" style="width:400px;" />
 
--   Apply some solder to the solder tags
+- Apply some solder to the solder tags
 Hold the plug in place with helping hands or a vice. Then apply some solder to the longest and shortest solder tags (see image). This will make it easier to solder the wires later. Don’t apply the heat for too long or the plastic parts might melt.  
-    <img src="media\AudioJackClothespin.png" alt="AudioJackClothespin" style="width:400px;" />
+  <img src="media\AudioJackClothespin.png" alt="AudioJackClothespin" style="width:400px;" />
 
--   Solder the cables to the plug
-The polarity of the structure-borne noise sensor doesn’t matter, but I’m going with convention and treat the black wire as ground. Use the helping hand to position the wire on the longest soldering tab. Then solder the wire to the tab.  
-    <img src="media\AudioJackSoldering.png" alt="AudioJackSoldering" style="width:400px;" />
+- Solder the cables to the plug. The polarity of the structure-borne noise sensor doesn’t matter, but I’m going with convention and treat the black wire as ground. Use the helping hand to position the wire on the longest soldering tab. Then solder the wire to the tab.  
+  <img src="media\AudioJackSoldering.png" alt="AudioJackSoldering" style="width:400px;" />
 
--   Repeat for the other wire. You can use any of the two shorter tabs, they are for the left and right channel respectively.
-    <img src="media\AudioJackSoldered.png" alt="AudioJackSoldered" style="width:400px;" />
+- Repeat for the other wire. You can use any of the two shorter tabs, they are for the left and right channel respectively.
+  <img src="media\AudioJackSoldered.png" alt="AudioJackSoldered" style="width:400px;" />
 
 - Use pliers to crimp the parts of the long tab around the black wire.  
-<img src="media\AudioJackStrainRelief.png" alt="AudioJackStrainRelief" style="width:400px;" />
+  <img src="media\AudioJackStrainRelief.png" alt="AudioJackStrainRelief" style="width:400px;" />
 
--   Pull the plastic insulation over the solder tabs and screw the cover on. The Connector is now done!
-    <img src="media\AudioJackInsulation.png" alt="AudioJackInsuliation" style="width:300px;" /> <img src="media\AudioJackAssembled.png" alt="AudioJackAssembled" style="width:300px;" />
--   It is important that the structure-borne noise sensor is firmly mounted to the rope way cable. One way to achieve this is to screw the sensor to a screw clamp:  
-    <img src="media\VisatonScrewClamp.png" alt="VisatonScrewClamp" style="width:400px;" />
+- Pull the plastic insulation over the solder tabs and screw the cover on. The Connector is now done!
+  <img src="media\AudioJackInsulation.png" alt="AudioJackInsuliation" style="width:300px;" /> <img src="media\AudioJackAssembled.png" alt="AudioJackAssembled" style="width:300px;" />
+- It is important that the structure-borne noise sensor is firmly mounted to the rope way cable. One way to achieve this is to screw the sensor to a screw clamp:  
+  <img src="media\VisatonScrewClamp.png" alt="VisatonScrewClamp" style="width:400px;" />
 
 > ToDo (optional): Neues Bild mit oranger Zwinge und gedrucktem Prisma
 
@@ -95,28 +94,28 @@ Required Raspberry PI and accessories:
 
 Peripherals to setup your Raspberry Pi
 
--   Micro HDMI to Standard HDMI cable (to connect your Raspberry Pi to the monitor), [product link](https://www.pi-shop.ch/micro-hdmi-to-standard-hdmi-a-m-1m-kabel)
--   Monitor
--   Keyboard
--   Mouse
--   Internet connection for your Raspberry Pi (Ethernet or Wi-Fi)
+- Micro HDMI to Standard HDMI cable (to connect your Raspberry Pi to the monitor), [product link](https://www.pi-shop.ch/micro-hdmi-to-standard-hdmi-a-m-1m-kabel)
+- Monitor
+- Keyboard
+- Mouse
+- Internet connection for your Raspberry Pi (Ethernet or Wi-Fi)
 
 Required additional equipment:
 
--   PC with internet connection
--   Micro-SD card adapter
+- PC with internet connection
+- Micro-SD card adapter
 
 ### Download the Operating system
 
--   Insert the Micro-SD card in your Micro-SD card adapter and connect it to your PC.
--   Login on Windows with admin Credentials ( 'Raspberry Pi Imager' runs best in an account with admin credentials)
--   Download 'Raspberry Pi Imager' from here: <https://www.raspberrypi.com/software/>
--   Install the downloaded 'Raspberry Pi Imager' and run the 'Raspberry Pi imager'
--   Select the Raspberry Pi OS (32 Bit).  
+- Insert the Micro-SD card in your Micro-SD card adapter and connect it to your PC.
+- Login on Windows with admin Credentials ( 'Raspberry Pi Imager' runs best in an account with admin credentials)
+- Download 'Raspberry Pi Imager' from here: <https://www.raspberrypi.com/software/>
+- Install the downloaded 'Raspberry Pi Imager' and run the 'Raspberry Pi imager'
+- Select the Raspberry Pi OS (32 Bit).  
     <img src="media\ScrPiImager.png" alt="ScrPiImager" style="width:400px;" />
--   Select the connected Micro-SD card
--   Click 'Write' button an confirm overwriting the Micro-SD card (Double-check that you selected the right card as all of it’s contents will be deleted). This can take several minutes.
--   When finished, close 'Raspberry Pi Imager' and remove SD-Card.
+- Select the connected Micro-SD card
+- Click 'Write' button an confirm overwriting the Micro-SD card (Double-check that you selected the right card as all of it’s contents will be deleted). This can take several minutes.
+- When finished, close 'Raspberry Pi Imager' and remove SD-Card.
 
 ### Prepare Raspberry Pi Hardware
 
@@ -133,27 +132,27 @@ The easiest way to set up the Raspberry Pi is to connect a mouse, keyboard and m
 
 ### Raspberry Pi Welcome Wizard
 
--   If everything is connected, switch on the Raspberry Pi. After a few seconds, the Welcome Wizard starts.
+- If everything is connected, switch on the Raspberry Pi. After a few seconds, the Welcome Wizard starts.
 
--   The welcome wizard will guide you through the most important settings of your Raspberry Pi.  Follow the instructions on the Screen. Click 'Next' to start the wizard.
+- The welcome wizard will guide you through the most important settings of your Raspberry Pi.  Follow the instructions on the Screen. Click 'Next' to start the wizard.
 
--   'Set Country' dialog
+- 'Set Country' dialog
     Country and language selection should correspond with your keyboard layout. We recommend ticking checkbox 'Use English language'. A wrong keyboard layout can switch out certain characters.  
     <img src="media\ScrFirstBootCountry.png" alt="ScrFirstBootCountry" style="width:400px;" />
     
 - 'Create User' dialog  
   <img src="media\ScrFirstBootCreateUser.png" alt="ScrFirstBootCreateUser" style="width:400px;" />
 
-  -   Enter a username
+  - Enter a username
     The examples in this manual were all carried out with the user 'seilsender'. It may be easiest for you to use the user 'seilsender' as well.
-  -   Untick the “Hide characters” checkbox to see if your password was entered correctly.  Enter your new password.
+  - Untick the “Hide characters” checkbox to see if your password was entered correctly.  Enter your new password.
 
   **Important:** Remember your Raspberry Pi username a password, you will need them later! Username and password are case sensitive.
 
 - 'Select Wi-Fi Network' dialog: The system searches available Wi-Fi Networks.
 
-  -   If you want to connect via ethernet cable, press 'Skip', else
-  -   select the desired Wi-Fi Network, press 'Next and enter your Wi-Fi password.
+  - If you want to connect via ethernet cable, press 'Skip', else
+  - select the desired Wi-Fi Network, press 'Next and enter your Wi-Fi password.
       Note: At this point, the keyboard layout is not yet set, so entering the password may be a little tricky. Untick 'Hide Characters'.
 
 - The next step is to update the software. This may take a few minutes. Please be patient…
@@ -187,33 +186,33 @@ VNC is used to remotely manage your Raspberry Pi via internet connection. VNC-Se
 
 **Create a VNC account if you don't already have one:**
 
--   Start the web browser on your PC an go to <https://manage.realvnc.com/en/> and enter your e-mail address.
+- Start the web browser on your PC an go to <https://manage.realvnc.com/en/> and enter your e-mail address.
 
--   Create a 'VNC connect' account following the instructions (select 'personal use'.)
+- Create a 'VNC connect' account following the instructions (select 'personal use'.)
     **Important: Remember your 'VNC connect' credentials, you will need them later!**
 
--   Activate 'HOME' edition of VNC Connect  
+- Activate 'HOME' edition of VNC Connect  
     <img src="media\ScrVncActivate.png" alt="ScrVncActivate" style="zoom:100%;" />
 
 **Setup VNC on your Raspberry Pi**
 
--   On your Raspberry Pi Desktop, Click the blue VNC logo in the top right corner and Click 'Sign in':
+- On your Raspberry Pi Desktop, Click the blue VNC logo in the top right corner and Click 'Sign in':
     <img src="media\ScrVncSignin.png" alt="ScrVncSignin" style="width:400px;" />
--   Sign in with your 'VNC connect' credentials and follow the instructions.
--   Enter an additional VNC password for this device:  
+- Sign in with your 'VNC connect' credentials and follow the instructions.
+- Enter an additional VNC password for this device:  
     <img src="media\ScrVncAuthentication.png" alt="ScrVncAuthentication" style="width:400px;" /> 
     **Important: Remember your VNC password, you will need it later to access your Raspberry Pi**
--   On the summary tab, it is possible to enter an individual name for VNC (makes in easier if you have more than one device within VNC connect)  
+- On the summary tab, it is possible to enter an individual name for VNC (makes in easier if you have more than one device within VNC connect)  
     <img src="media\ScrVncSummary.png" alt="ScrVncSummary" style="width:400px;" />
--   Click 'Apply' to finish setup
--   Hint: There is no easy way to log off from VNC Connect. If necessary, open a console Window on your Raspberry pi with clicking the black button in the top left and enter `sudo rm /root/.vnc/config.d/vncserver-x11.d/CloudCredentials.bed`. Afterwards, the 'Sign In' option is available on den VNC main menu.
+- Click 'Apply' to finish setup
+- Hint: There is no easy way to log off from VNC Connect. If necessary, open a console Window on your Raspberry pi with clicking the black button in the top left and enter `sudo rm /root/.vnc/config.d/vncserver-x11.d/CloudCredentials.bed`. Afterwards, the 'Sign In' option is available on den VNC main menu.
 
 Install VNC Viewer on your PC:
 
--   Download VNC Viewer using <https://www.realvnc.com/en/connect/download/viewer/> and install it.
--   Open VNC Viewer sign with your 'VNC connect' credentials.
--   Then select your team, you and double-click on the Raspberry Pi on the right side to connect. You’ll need to enter your VNC-Password you defined during VNC Setup.
--   After you are connected, you can now control the Raspberry Pi via Internet an VNC from your PC. You will no longer need dedicated keyboard, mouse and monitor to access your Raspberry Pi.
+- Download VNC Viewer using <https://www.realvnc.com/en/connect/download/viewer/> and install it.
+- Open VNC Viewer sign with your 'VNC connect' credentials.
+- Then select your team, you and double-click on the Raspberry Pi on the right side to connect. You’ll need to enter your VNC-Password you defined during VNC Setup.
+- After you are connected, you can now control the Raspberry Pi via Internet an VNC from your PC. You will no longer need dedicated keyboard, mouse and monitor to access your Raspberry Pi.
 
 ### Register your Seilsender
 
@@ -228,10 +227,10 @@ To stream your recordings to the Seilsender-Website, you have to apply for an of
 
 DarkIce records audio from an audio interface (e.g. sound card), encodes it and sends it to the IceCast streaming server.
 
--   Open a console Window on your Raspberry Pi with clicking the black button in the top left.  
+- Open a console Window on your Raspberry Pi with clicking the black button in the top left.  
     <img src="media\ScrRaspiDesktopConsole.png" alt="ScrRaspiDesktopConsole" style="zoom:100%;" />
     
--   Install DarkIce with the following command: 
+- Install DarkIce with the following command: 
     
     `sudo apt-get install -y darkice`  
     <img src="media\ScrRaspiConsoleInstallDarkice.png" alt="ScrRaspiConsoleInstallDarkice" style="width:700px;" />
@@ -252,21 +251,21 @@ DarkIce records audio from an audio interface (e.g. sound card), encodes it and 
 `sudo chmod 777 launch_darkice.sh`
 If you now type `ls` again, the launch script will now appear in green color, indicating that it is an executable file.  
   <img src="media\ScrDarkiceExecutable.png" alt="ScrDarkiceExecutable" style="width:400px;" />
--   Open the DarkIce configuration file with Nano (a command line editor) to set your mountpoint and a password:
+- Open the DarkIce configuration file with Nano (a command line editor) to set your mountpoint and a password:
     `nano darkice.cfg`
--   Move down with arrow keys (no mouse) to the appropriate section and set your mountpoint and password (red frame). Optionally, you can set the parameters 'name' and 'description' (parameters are shown when life-streaming your recordings with IceCast).  
+- Move down with arrow keys (no mouse) to the appropriate section and set your mountpoint and password (red frame). Optionally, you can set the parameters 'name' and 'description' (parameters are shown when life-streaming your recordings with IceCast).  
     <img src="media\ScrDarkiceCfg.png" alt="ScrDarkiceCfg" style="width:700px;" />
 - Save configuration file with CTRL+O, then press Enter to confirm filename and exit Nano editor with CTRL+X.
--   The configuration of DarkIce is finished. Now test if everything is working:
+- The configuration of DarkIce is finished. Now test if everything is working:
 
   - Plug in the USB soundcard to the Raspberry Pi and connect the structure-borne noise sensor to the microphone input (red socket) of the soundcard  
     <img src="media\HwSoundCard.png" alt="HwSoundCard" style="width:300px;" />
   - Type `darkice -c ./darkice.cfg`  into the console. DarkIce will start streaming:
     <img src="media\ScrDarkiceStart.png" alt="ScrDarkiceStart" style="width:700px;" />
-  -   The warning 'Could not set POSIX real-time scheduling...' can be ignored.
-  -   Open the URL http://seilsender.babros.ch/ on your PC and check if your stream is listed:
+  - The warning 'Could not set POSIX real-time scheduling...' can be ignored.
+  - Open the URL http://seilsender.babros.ch/ on your PC and check if your stream is listed:
       <img src="media\ScrIcecast2Test.png" alt="ScrIcecast2Test" style="width:300px;" />
-  -   Click the play-icon below your mount point. You should hear the sound your structure-borne noise sensor is recording. Please note that there can be a few seconds of delay.
+  - Click the play-icon below your mount point. You should hear the sound your structure-borne noise sensor is recording. Please note that there can be a few seconds of delay.
 - To stop streaming with DarkIce, press CTRL+C in the console-window.
 
 ### Set up DarkIce to automatically start on boot
