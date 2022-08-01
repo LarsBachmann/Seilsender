@@ -49,6 +49,7 @@ Proceed as follows:
    <img src="media\VisatonRearViewGlueing.png" alt="VisatonRearViewGlueing" style="width:300px;" /> <img src="media\VisatonRearView.png" alt="VisatonRearView" style="width:300px;" />
 -   Disassemble the plug by unscrewing the back cover.   
   <img src="media\AudioJack.png" alt="AudioJack" style="width:400px;" />
+  
 -   Use a wire stripper to remove about 5 mm of insulation off the cables.
 My cables already had the isolation removed but you might need to remove yours.
 -   Tin the end of the cable.
