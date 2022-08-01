@@ -30,7 +30,7 @@ Required parts:
 | -------- | ---------------------------- | ------------------------------------------------------------ |
 | 1        | Structure-Borne noise sensor | Visaton BS 76 8 &#937;, [product link](https://www.reichelt.com/ch/de/koerperschallwandler-bs-76-20-w-8-ohm-vis-bs76-8-p100215.html?&trstct=pos_0&nbc=1) |
 | 1        | 3.5mm Mini-Jack Stereo       | NEUTRIK NYS231, [product link](https://www.reichelt.com/ch/de/klinkenstecker-3-5-mm-stereo-3-pol-neutrik-nys231-p131754.html?&trstct=pos_1&nbc=1) |
-| 1        | Screw Clamp                  | WOKIN G-Clamp 4", 100 mm, [product link](https://www.reichelt.com/ch/de/g-schraubzwinge-4-100-mm-wokin-106404-p303437.html?&trstct=pos_2&nbc=1) |
+| 1        | Screw Clamp                  | WOKIN G-Clamp 3", 75 mm, [product link](https://www.reichelt.com/ch/de/g-schraubzwinge-3-75-mm-wokin-106403-p303436.html?&nbc=1) |
 
 <img src="media\VisatonFrontView.png" alt="VisatonFrontView" style="width:400px;float:left" />
 
