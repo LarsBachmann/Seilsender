@@ -19,7 +19,7 @@ Pictures: Münsterfähre (cable ferry), Basel, CH / Material ropeway, Stutz-Obsa
 
 The basic configuration setup guide describes all steps necessary to start streaming audio with your Raspberry Pi.
 
-Further options like LTE connectivity, more sophisticated audio input with audio hat or flexible power supply with PiJuice are described in the [Optional Features](#Optional Features) section.
+Further options like LTE connectivity, more sophisticated audio input with audio hat or flexible power supply with PiJuice are described in the Optional Features section.
 
 
 ## Preparing the Visaton Exciter as a Structure-Borne Noise Sensor
@@ -52,10 +52,9 @@ Proceed as follows:
 
 - Use a wire stripper to remove about 5 mm of insulation off the cables. My cables already had the isolation removed but you might need to remove yours.  
   <img src="media\AudioJackWireStripped.png" alt="AudioJackWireStripped" style="width:400px;" />
-- Tin the end of the cable.
-- Turn on the soldering iron, wait for it to heat up, and set it down on the table without letting the tip touch the table. Hold the cable in one hand and the solder in the other. You can also use a helping hand to keep the cable in place while holding the soldering iron and solder with your hands.
-Apply a little bit of solder to the soldering iron to improve the thermal contact and set the cable down on top of it. Now touch the solder to the cable until it melts and flows between the strands.  
- <img src="media\AudioJackCableTinning.png" alt="AudioJackCableTinning" style="width:400px;" />
+- Tin the end of the cable    
+  Turn on the soldering iron, wait for it to heat up, and set it down on the table without letting the tip touch the table. Hold the cable in one hand and the solder in the other. You can also use a helping hand to keep the cable in place while holding the soldering iron and solder with your hands. Apply a little bit of solder to the soldering iron to improve the thermal contact and set the cable down on top of it. Now touch the solder to the cable until it melts and flows between the strands.  
+  <img src="media\AudioJackCableTinning.png" alt="AudioJackCableTinning" style="width:400px;" />
 
 - Trim the now tinned section to about 4 or 5 mm.  
   <img src="media\AudioJackWireCutting.png" alt="AudioJackWireCutting" style="width:400px;" />
@@ -63,11 +62,12 @@ Apply a little bit of solder to the soldering iron to improve the thermal contac
 - Unroll the cable and make sure there are no knots. Then thread the cable through the back cover and the plastic insulator.
   <img src="media\AudioJackPreparation.png" alt="AudioJackPreparation" style="width:400px;" />
 
-- Apply some solder to the solder tags
-Hold the plug in place with helping hands or a vice. Then apply some solder to the longest and shortest solder tags (see image). This will make it easier to solder the wires later. Don’t apply the heat for too long or the plastic parts might melt.  
+- Apply some solder to the solder tags  
+  Hold the plug in place with helping hands or a vice. Then apply some solder to the longest and shortest solder tags (see image). This will make it easier to solder the wires later. Don’t apply the heat for too long or the plastic parts might melt.  
   <img src="media\AudioJackClothespin.png" alt="AudioJackClothespin" style="width:400px;" />
 
-- Solder the cables to the plug. The polarity of the structure-borne noise sensor doesn’t matter, but I’m going with convention and treat the black wire as ground. Use the helping hand to position the wire on the longest soldering tab. Then solder the wire to the tab.  
+- Solder the cables to the plug  
+  The polarity of the structure-borne noise sensor doesn’t matter, but I’m going with convention and treat the black wire as ground. Use the helping hand to position the wire on the longest soldering tab. Then solder the wire to the tab.  
   <img src="media\AudioJackSoldering.png" alt="AudioJackSoldering" style="width:400px;" />
 
 - Repeat for the other wire. You can use any of the two shorter tabs, they are for the left and right channel respectively.
@@ -77,7 +77,7 @@ Hold the plug in place with helping hands or a vice. Then apply some solder to t
   <img src="media\AudioJackStrainRelief.png" alt="AudioJackStrainRelief" style="width:400px;" />
 
 - Pull the plastic insulation over the solder tabs and screw the cover on. The Connector is now done!
-  <img src="media\AudioJackInsulation.png" alt="AudioJackInsuliation" style="width:300px;" /> <img src="media\AudioJackAssembled.png" alt="AudioJackAssembled" style="width:300px;" />
+  <img src="media\AudioJackInsulation.png" alt="AudioJackInsuliation" style="width:300px;" />  <img src="media\AudioJackAssembled.png" alt="AudioJackAssembled" style="width:300px;" />
 - It is important that the structure-borne noise sensor is firmly mounted to the rope way cable. One way to achieve this is to screw the sensor to a screw clamp:  
   <img src="media\VisatonScrewClamp.png" alt="VisatonScrewClamp" style="width:400px;" />
 
@@ -123,7 +123,7 @@ Required additional equipment:
 
 The easiest way to set up the Raspberry Pi is to connect a mouse, keyboard and monitor. If you use a Raspberry Pi 4, you’ll need a micro HDMI to HDMI adapter (cable) to connect the monitor. The Raspberry Pi 2&3 have a full size HDMI connector and don’t require an adapter, just a normal HDMI cable.
 
-- Install the micro-SD card on the slot on the back of your Raspberry Pi
+- Install the micro-SD card on the slot on the back of your Raspberry Pi  
   <img src="media\RaspiBottomView.png" alt="RaspiBottomView" style="width:400px;" />
 - Connect the mouse and keyboard to any USB port on the Raspberry Pi.
 - Connect the monitor with the 'Micro HDMI to Standard HDMI cable' to any HDMI port of your Raspberry Pi. 
@@ -205,7 +205,7 @@ VNC is used to remotely manage your Raspberry Pi via internet connection. VNC-Se
 - On the summary tab, it is possible to enter an individual name for VNC (makes in easier if you have more than one device within VNC connect)  
   <img src="media\ScrVncSummary.png" alt="ScrVncSummary" style="width:400px;" />
 - Click 'Apply' to finish setup
-- Hint: There is no easy way to log off from VNC Connect. If necessary, open a console Window on your Raspberry pi with clicking the black button in the top left and enter  
+- **Hint**: There is no easy way to log off from VNC Connect. If necessary, open a console Window on your Raspberry pi with clicking the black button in the top left and enter  
   `sudo rm /root/.vnc/config.d/vncserver-x11.d/CloudCredentials.bed`.  
   Afterwards, the 'Sign In' option is available on den VNC main menu.
 
@@ -233,25 +233,22 @@ DarkIce records audio from an audio interface (e.g. sound card), encodes it and 
   <img src="media\ScrRaspiDesktopConsole.png" alt="ScrRaspiDesktopConsole" style="zoom:100%;" />
     
 - Install DarkIce with the following command: 
-    
   `sudo apt-get install -y darkice`  
   <img src="media\ScrRaspiConsoleInstallDarkice.png" alt="ScrRaspiConsoleInstallDarkice" style="width:700px;" />
     
 - DarkIce needs a configuration file containing all necessary settings. Create a subdirectory and change to the new directory:  
-  `mkdir darkice`
-  `cd darkice`
-   
+  `mkdir darkice`  
+  `cd darkice` 
 - Then we download the templates of the config files:  
-  `wget https://raw.githubusercontent.com/LarsBachmann/Seilsender/main/darkice/darkice.cfg`
-  `wget https://raw.githubusercontent.com/LarsBachmann/Seilsender/main/darkice/launch_darkice.sh`
-   
+  `wget https://raw.githubusercontent.com/LarsBachmann/Seilsender/main/darkice/darkice.cfg`  
+  `wget https://raw.githubusercontent.com/LarsBachmann/Seilsender/main/darkice/launch_darkice.sh`   
 - Type `ls` and press enter, you should see the two files `darkice.cfg` and `launch_darkice.sh`.  
   <img src="media\ScrDarkiceFiles.png" alt="ScrDarkiceFiles" style="width:400px;" />
-
-
 - The file launch_darkice.sh is a simple script to launch DarkIce, but it must be made executable first:  
   `sudo chmod 777 launch_darkice.sh`
-  If you now type `ls` again, the launch script will now appear in green color, indicating that it is an executable file.  
+- If you now type  
+  `ls`  
+  again, the launch script will now appear in green color, indicating that it is an executable file.  
   <img src="media\ScrDarkiceExecutable.png" alt="ScrDarkiceExecutable" style="width:400px;" />
 - Open the DarkIce configuration file with Nano (a command line editor) to set your mountpoint and a password:  
   `nano darkice.cfg`
@@ -261,7 +258,9 @@ DarkIce records audio from an audio interface (e.g. sound card), encodes it and 
 - The configuration of DarkIce is finished. Now test if everything is working:
   - Plug in the USB soundcard to the Raspberry Pi and connect the structure-borne noise sensor to the microphone input (red socket) of the soundcard  
     <img src="media\HwSoundCard.png" alt="HwSoundCard" style="width:300px;" />
-  - Type `darkice -c ./darkice.cfg`  into the console. DarkIce will start streaming:  
+  - Type  
+    `darkice -c ./darkice.cfg`  
+    into the console. DarkIce will start streaming:  
     <img src="media\ScrDarkiceStart.png" alt="ScrDarkiceStart" style="width:700px;" />
   - The warning 'Could not set POSIX real-time scheduling...' can be ignored.
   - Open the URL http://seilsender.babros.ch/ on your PC and check if your stream is listed:  
@@ -271,30 +270,22 @@ DarkIce records audio from an audio interface (e.g. sound card), encodes it and 
 
 ### Set up DarkIce to automatically start on boot
 
-To start DarkIce automatically on boot, integrate the script launch_darkice.sh into startup procedure:
+To start DarkIce automatically on boot, integrate the script `launch_darkice.sh` into startup procedure:
 
 - Use the command `pwd`  to display the path to the launch_darkice.sh script and copy it by marking it with the mouse, right clicking and selecting "Copy".  
   <img src="media\ScrDarkicepwd.png" alt="ScrDarkicepwd" style="width:400px;" />
-
 - Open the system-wide crontab with Nano editor
   `sudo nano /etc/crontab`
-  
 - Move down with arrow keys (no mouse) to the end of the crontab file
-
 - Add the following line to the file:  
   `@reboot root /bin/sudo -u <USER> <PATH>/launch_darkice.sh`
-  
 - Replace `<USER>` with the username you chose and `<PATH>` with the path you just copied by moving the cursor to the correct spot, right clicking and selecting "Paste" (Example: `@reboot root /bin/sudo -u seilsender /home/seilsender/darkice/launch_darkice.sh`).
-  
 - It should look similar to this:  
   <img src="media\SrcCrontab.png" alt="SrcCrontab" style="width:700px;" />
-
 - Save with CTRL+O, then press Enter to confirm filename and exit Nano editor with CTRL+X.
-
 - To test, reboot the Raspberry Pi with typing the command  
   `reboot` 
   or use the Menu (top left corner) > Logout > Reboot.
-  
 - DarkIce should start automatically after about a minute. Open the website http://seilsender.babros.ch/ on your PC to see if your stream shows up.
   
 > ToDo: Link anpassen, sobald subdomain streaming.seilsender.ch zur Verfügung steht.
@@ -330,7 +321,7 @@ If there’s no Wi-Fi or Ethernet available, you can use an LTE USB stick to con
   - Insert your LTE-Stick into any free USB-Port of your Raspberry Pi
   - Reboot (enter in the console `reboot`)
   - After reboot, open console again and enter `ip route`.  Now, there should be two routes beginning with 'default via 192.168... ', one with 'dev wlan0' and an new one with 'dev eth1'.  
-  <img src="media\ScrIpRoute.png" alt="ScrIpRoute" style="width:400px;" />
+    <img src="media\ScrIpRoute.png" alt="ScrIpRoute" style="width:400px;" />
 
 ## Weatherproof Case
 
