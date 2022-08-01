@@ -132,7 +132,8 @@ The easiest way to set up the Raspberry Pi is to connect a mouse, keyboard and m
 
 ### Raspberry Pi Welcome Wizard
 
-- If everything is connected, switch on the Raspberry Pi. After a few seconds, the Welcome Wizard starts. If nothing happens, try to use the other HDMI port of your Raspberry Pi.
+- If everything is connected, switch on the Raspberry Pi. After a few seconds, the Welcome Wizard starts. If nothing happens, try to use the other HDMI port of your Raspberry Pi.  
+  <img src="media\ScrFirstBootWelcome.png" alt="ScrFirstBootWelcome" style="width:400px;" />
 
 - The welcome wizard will guide you through the most important settings of your Raspberry Pi.  Follow the instructions on the Screen. Click 'Next' to start the wizard.
 
@@ -144,7 +145,7 @@ The easiest way to set up the Raspberry Pi is to connect a mouse, keyboard and m
   <img src="media\ScrFirstBootCreateUser.png" alt="ScrFirstBootCreateUser" style="width:400px;" />
   - Enter a username  
     The examples in this manual were all carried out with the user 'seilsender'. It may be easiest for you to use the user 'seilsender' as well.
-  - Untick the “Hide characters” checkbox to see if your password was entered correctly.  Enter your new password.
+  - Untick the “Hide characters” checkbox to see if your password was entered correctly.  Enter your new password twice and press Enter.
   - **Important:** Remember your Raspberry Pi username a password, you will need them later! Username and password are case sensitive.
 - 'Select Wi-Fi Network' dialog: The system searches available Wi-Fi Networks.
 - If you want to connect via ethernet cable, press 'Skip', else
