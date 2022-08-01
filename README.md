@@ -136,14 +136,14 @@ The easiest way to set up the Raspberry Pi is to connect a mouse, keyboard and m
 
 - The welcome wizard will guide you through the most important settings of your Raspberry Pi.  Follow the instructions on the Screen. Click 'Next' to start the wizard.
 
-- 'Set Country' dialog
-    Country and language selection should correspond with your keyboard layout. We recommend ticking checkbox 'Use English language'. A wrong keyboard layout can switch out certain characters.  
-    <img src="media\ScrFirstBootCountry.png" alt="ScrFirstBootCountry" style="width:400px;" />
+- 'Set Country' dialog  
+  Country and language selection should correspond with your keyboard layout. We recommend ticking checkbox 'Use English language'. A wrong keyboard layout can switch out certain characters.  
+  <img src="media\ScrFirstBootCountry.png" alt="ScrFirstBootCountry" style="width:400px;" />
     
 - 'Create User' dialog  
   <img src="media\ScrFirstBootCreateUser.png" alt="ScrFirstBootCreateUser" style="width:400px;" />
 
-  - Enter a username
+  - Enter a username  
     The examples in this manual were all carried out with the user 'seilsender'. It may be easiest for you to use the user 'seilsender' as well.
   - Untick the “Hide characters” checkbox to see if your password was entered correctly.  Enter your new password.
 
@@ -151,20 +151,20 @@ The easiest way to set up the Raspberry Pi is to connect a mouse, keyboard and m
 
 - 'Select Wi-Fi Network' dialog: The system searches available Wi-Fi Networks.
 
-  - If you want to connect via ethernet cable, press 'Skip', else
-  - select the desired Wi-Fi Network, press 'Next and enter your Wi-Fi password.
-      Note: At this point, the keyboard layout is not yet set, so entering the password may be a little tricky. Untick 'Hide Characters'.
+- If you want to connect via ethernet cable, press 'Skip', else
+- select the desired Wi-Fi Network, press 'Next and enter your Wi-Fi password.
+  Note: At this point, the keyboard layout is not yet set, so entering the password may be a little tricky. Untick 'Hide Characters'.
 
 - The next step is to update the software. This may take a few minutes. Please be patient…
 
 - Click 'Restart' to reboot your Raspberry Pi.
 
-- After restarting the Pi, you should be shown your desktop.
+- After restarting the Pi, you should be shown your desktop.  
   <img src="media\ScrRaspiDesktop.png" alt="ScrRaspiDesktop" style="width:700px;" />
 
 - Hint: If you want to start the welcome wizard again, open a console window an enter `sudo piwiz`
 
-  ### Raspberry Pi Configuration
+### Raspberry Pi Configuration
 
 - Open the Menu in the top let corner and navigate to Preferences -\> Raspberry Pi Configuration.  
   <img src="media\ScrRaspiConfig.png" alt="ScrRaspiConfig" style="width:700px;" />
@@ -189,23 +189,25 @@ VNC is used to remotely manage your Raspberry Pi via internet connection. VNC-Se
 - Start the web browser on your PC an go to <https://manage.realvnc.com/en/> and enter your e-mail address.
 
 - Create a 'VNC connect' account following the instructions (select 'personal use'.)
-    **Important: Remember your 'VNC connect' credentials, you will need them later!**
+  **Important: Remember your 'VNC connect' credentials, you will need them later!**
 
 - Activate 'HOME' edition of VNC Connect  
-    <img src="media\ScrVncActivate.png" alt="ScrVncActivate" style="zoom:100%;" />
+  <img src="media\ScrVncActivate.png" alt="ScrVncActivate" style="zoom:100%;" />
 
 **Setup VNC on your Raspberry Pi**
 
-- On your Raspberry Pi Desktop, Click the blue VNC logo in the top right corner and Click 'Sign in':
-    <img src="media\ScrVncSignin.png" alt="ScrVncSignin" style="width:400px;" />
+- On your Raspberry Pi Desktop, Click the blue VNC logo in the top right corner and Click 'Sign in':  
+  <img src="media\ScrVncSignin.png" alt="ScrVncSignin" style="width:400px;" />
 - Sign in with your 'VNC connect' credentials and follow the instructions.
 - Enter an additional VNC password for this device:  
-    <img src="media\ScrVncAuthentication.png" alt="ScrVncAuthentication" style="width:400px;" /> 
-    **Important: Remember your VNC password, you will need it later to access your Raspberry Pi**
+  <img src="media\ScrVncAuthentication.png" alt="ScrVncAuthentication" style="width:400px;" /> 
+  **Important: Remember your VNC password, you will need it later to access your Raspberry Pi**
 - On the summary tab, it is possible to enter an individual name for VNC (makes in easier if you have more than one device within VNC connect)  
-    <img src="media\ScrVncSummary.png" alt="ScrVncSummary" style="width:400px;" />
+  <img src="media\ScrVncSummary.png" alt="ScrVncSummary" style="width:400px;" />
 - Click 'Apply' to finish setup
-- Hint: There is no easy way to log off from VNC Connect. If necessary, open a console Window on your Raspberry pi with clicking the black button in the top left and enter `sudo rm /root/.vnc/config.d/vncserver-x11.d/CloudCredentials.bed`. Afterwards, the 'Sign In' option is available on den VNC main menu.
+- Hint: There is no easy way to log off from VNC Connect. If necessary, open a console Window on your Raspberry pi with clicking the black button in the top left and enter  
+  `sudo rm /root/.vnc/config.d/vncserver-x11.d/CloudCredentials.bed`.  
+  Afterwards, the 'Sign In' option is available on den VNC main menu.
 
 Install VNC Viewer on your PC:
 
@@ -228,42 +230,41 @@ To stream your recordings to the Seilsender-Website, you have to apply for an of
 DarkIce records audio from an audio interface (e.g. sound card), encodes it and sends it to the IceCast streaming server.
 
 - Open a console Window on your Raspberry Pi with clicking the black button in the top left.  
-    <img src="media\ScrRaspiDesktopConsole.png" alt="ScrRaspiDesktopConsole" style="zoom:100%;" />
+  <img src="media\ScrRaspiDesktopConsole.png" alt="ScrRaspiDesktopConsole" style="zoom:100%;" />
     
 - Install DarkIce with the following command: 
     
-    `sudo apt-get install -y darkice`  
-    <img src="media\ScrRaspiConsoleInstallDarkice.png" alt="ScrRaspiConsoleInstallDarkice" style="width:700px;" />
+  `sudo apt-get install -y darkice`  
+  <img src="media\ScrRaspiConsoleInstallDarkice.png" alt="ScrRaspiConsoleInstallDarkice" style="width:700px;" />
     
-- DarkIce needs a configuration file containing all necessary settings. Create a subdirectory and change to the new directory:
-   `mkdir darkice`
-   `cd darkice`
+- DarkIce needs a configuration file containing all necessary settings. Create a subdirectory and change to the new directory:  
+  `mkdir darkice`
+  `cd darkice`
    
-- Then we download the templates of the config files:
-   `wget https://raw.githubusercontent.com/LarsBachmann/Seilsender/main/darkice/darkice.cfg`
-   `wget https://raw.githubusercontent.com/LarsBachmann/Seilsender/main/darkice/launch_darkice.sh`
+- Then we download the templates of the config files:  
+  `wget https://raw.githubusercontent.com/LarsBachmann/Seilsender/main/darkice/darkice.cfg`
+  `wget https://raw.githubusercontent.com/LarsBachmann/Seilsender/main/darkice/launch_darkice.sh`
    
-- Type `ls` and press enter, you should see the two files `darkice.cfg` and `launch_darkice.sh`.
-   <img src="media\ScrDarkiceFiles.png" alt="ScrDarkiceFiles" style="width:400px;" />
+- Type `ls` and press enter, you should see the two files `darkice.cfg` and `launch_darkice.sh`.  
+  <img src="media\ScrDarkiceFiles.png" alt="ScrDarkiceFiles" style="width:400px;" />
 
 
-- The file launch_darkice.sh is a simple script to launch DarkIce, but it must be made executable first:
-`sudo chmod 777 launch_darkice.sh`
-If you now type `ls` again, the launch script will now appear in green color, indicating that it is an executable file.  
+- The file launch_darkice.sh is a simple script to launch DarkIce, but it must be made executable first:  
+  `sudo chmod 777 launch_darkice.sh`
+  If you now type `ls` again, the launch script will now appear in green color, indicating that it is an executable file.  
   <img src="media\ScrDarkiceExecutable.png" alt="ScrDarkiceExecutable" style="width:400px;" />
-- Open the DarkIce configuration file with Nano (a command line editor) to set your mountpoint and a password:
-    `nano darkice.cfg`
+- Open the DarkIce configuration file with Nano (a command line editor) to set your mountpoint and a password:  
+  `nano darkice.cfg`
 - Move down with arrow keys (no mouse) to the appropriate section and set your mountpoint and password (red frame). Optionally, you can set the parameters 'name' and 'description' (parameters are shown when life-streaming your recordings with IceCast).  
-    <img src="media\ScrDarkiceCfg.png" alt="ScrDarkiceCfg" style="width:700px;" />
+  <img src="media\ScrDarkiceCfg.png" alt="ScrDarkiceCfg" style="width:700px;" />
 - Save configuration file with CTRL+O, then press Enter to confirm filename and exit Nano editor with CTRL+X.
 - The configuration of DarkIce is finished. Now test if everything is working:
-
   - Plug in the USB soundcard to the Raspberry Pi and connect the structure-borne noise sensor to the microphone input (red socket) of the soundcard  
     <img src="media\HwSoundCard.png" alt="HwSoundCard" style="width:300px;" />
-  - Type `darkice -c ./darkice.cfg`  into the console. DarkIce will start streaming:
+  - Type `darkice -c ./darkice.cfg`  into the console. DarkIce will start streaming:  
     <img src="media\ScrDarkiceStart.png" alt="ScrDarkiceStart" style="width:700px;" />
   - The warning 'Could not set POSIX real-time scheduling...' can be ignored.
-  - Open the URL http://seilsender.babros.ch/ on your PC and check if your stream is listed:
+  - Open the URL http://seilsender.babros.ch/ on your PC and check if your stream is listed:  
       <img src="media\ScrIcecast2Test.png" alt="ScrIcecast2Test" style="width:300px;" />
   - Click the play-icon below your mount point. You should hear the sound your structure-borne noise sensor is recording. Please note that there can be a few seconds of delay.
 - To stop streaming with DarkIce, press CTRL+C in the console-window.
@@ -280,20 +281,18 @@ To start DarkIce automatically on boot, integrate the script launch_darkice.sh i
   
 - Move down with arrow keys (no mouse) to the end of the crontab file
 
-- Add the following line to the file: 
+- Add the following line to the file:  
   `@reboot root /bin/sudo -u <USER> <PATH>/launch_darkice.sh`
   
-  Replace `<USER>` with the username you chose and `<PATH>` with the path you just copied by moving the cursor to the correct spot, right clicking and selecting "Paste" (Example: `@reboot root /bin/sudo -u seilsender /home/seilsender/darkice/launch_darkice.sh`).
+- Replace `<USER>` with the username you chose and `<PATH>` with the path you just copied by moving the cursor to the correct spot, right clicking and selecting "Paste" (Example: `@reboot root /bin/sudo -u seilsender /home/seilsender/darkice/launch_darkice.sh`).
   
-   It should look similar to this:
+- It should look similar to this:  
   <img src="media\SrcCrontab.png" alt="SrcCrontab" style="width:700px;" />
 
 - Save with CTRL+O, then press Enter to confirm filename and exit Nano editor with CTRL+X.
 
-- To test, reboot the Raspberry Pi with typing the command 
-  
+- To test, reboot the Raspberry Pi with typing the command  
   `reboot` 
-  
   or use the Menu (top left corner) > Logout > Reboot.
   
 - DarkIce should start automatically after about a minute. Open the website http://seilsender.babros.ch/ on your PC to see if your stream shows up.
@@ -318,18 +317,20 @@ Required parts:
 
 If there’s no Wi-Fi or Ethernet available, you can use an LTE USB stick to connect to the cellular network. For this guide I used the Huawei LTE-Stick E3372h-320, but other sticks should work about the same.
 
-- Open your LTE-Stick and make your Data SIM card ready and insert it
+- Open your LTE-Stick and make your Data SIM card ready and insert it  
   <img src="media\HwLteStickOpen.png" alt="HwLteStickOpen" style="width:400px;" />
   **Important: Make sure that the contacts of your Data SIM card are oriented towards the LTE-Stick**
 - Connect the LTE Stick with an USB-Port on your PC.
 - Proceed according to the instructions for your LTE-Stick. Typically, a configuration wizard starts automatically. If not, open http://192.168.8.1 in your browser. Follow the instructions in the wizard. Make sure that SIM PIN entry is disabled.
 - Disconnect your PC from the internet (Wi-Fi, Ethernet cable) and check if you have internet access via LTE Stick.
 - Test with Raspberry Pi
-  - Open a console and enter `ip route`.  There should be one route listed beginning with 'default via 192.168... ' with 'dev wlan0' (if your Raspberry Pi is connected to the internet via Wi-Fi)
+  - Open a console and enter  
+    `ip route`.  
+    There should be one route listed beginning with 'default via 192.168... ' with 'dev wlan0' (if your Raspberry Pi is connected to the internet via Wi-Fi)
   - Insert your LTE-Stick into any free USB-Port of your Raspberry Pi
   - Reboot (enter in the console `reboot`)
-  - After reboot, open console again and enter `ip route`.  Now, there should be two routes beginning with 'default via 192.168... ', one with 'dev wlan0' and an new one with 'dev eth1'.
-    <img src="media\ScrIpRoute.png" alt="ScrIpRoute" style="width:400px;" />
+  - After reboot, open console again and enter `ip route`.  Now, there should be two routes beginning with 'default via 192.168... ', one with 'dev wlan0' and an new one with 'dev eth1'.  
+  <img src="media\ScrIpRoute.png" alt="ScrIpRoute" style="width:400px;" />
 
 ## Weatherproof Case
 
@@ -350,12 +351,10 @@ All 3D-printing files  (STL files) are available for download. If the seal inser
 - Both the cable for the USB-C power-supply and the microphone cable with the 3.5mm Mini-Jack need to pass through the cable gland without removing the plugs. To make this possible, we print a halved sealing with a flexible filament (NinjaFlex TPE). We also print the nut to fix the cable gland in the universal case.  
   <img src="media\CableGlandSealsAndNut.png" alt="CableGlandSealsAndNut" style="width:400px;float:left" />  
 
-
-
 - Drill a 20 mm hole into the universal case using a peeling drill:  
   <img src="media\CaseDrilling1.png" alt="CaseDrilling1" style="height:170px;" /> <img src="media\CaseDrilling2.png" alt="CaseDrilling2" style="height:170px;" /> <img src="media\CaseDrilling3.png" alt="CaseDrilling3" style="height:170px;" />
   
-- Assemble the cable gland with the cables. Guide the cable through the seal and fit the cable gland.
+- Assemble the cable gland with the cables. Guide the cable through the seal and fit the cable gland.  
   <img src="media\CableGlandAssembly.png" alt="CableGlandAssembly" style="width:400px;" /><img src="media\CableGlandAssembled.JPG" alt="CableGlandAssembled.JPG" style="width:400px;" />
   
 - To fix the Raspberry Pi in the universal case, we 3D print a mounting frame. Assemble the Raspberry Pi into the case. The following 3D-Model shows you how to:  
@@ -378,53 +377,36 @@ The microphone input of the USB sound card from the basic configuration is not v
 | 1        | IQaudio Codec Zero | Audio HAT for Raspberry Pi, DA7212 codec, [product link](https://www.pi-shop.ch/iqaudio-codec-zero) |
 
 - Remove USB-Audio card if connected.
-
-- To avoid conflicts, it is recommended to disable the internal sound card of the Raspberry Pi (affects any audio playback). Open the file /boot/config.txt with Nano editor
+- To avoid conflicts, it is recommended to disable the internal sound card of the Raspberry Pi (affects any audio playback). Open the file /boot/config.txt with Nano editor  
   `sudo nano /boot/config.txt`
 
 - Move down with arrow keys (no mouse) to the entry `dtparam=audio=on`. Set a hash character '#' in front of the line:  
   <img src="media\ScrCodecZeroDtparam.png" alt="ScrCodecZeroDtparam" style="width:400px;" />
-
 - Save with CTRL+O, then press Enter to confirm filename and exit Nano editor with CTRL+X.
-
-- Reboot the Raspberry Pi with typing the command 
+- Reboot the Raspberry Pi with typing the command  
   `reboot`
-
-- List the recording devices to get the correct card-number
-  `arecord -l`
+- List the recording devices to get the correct card-number  
+  `arecord -l`  
   <img src="media\ScrCodecZeroArecord.png" alt="ScrCodecZeroArecord" style="width:400px;" />
-
-- Get the preconfigured Alsa settings (mixer controls)
-
+- Get the preconfigured Alsa settings (mixer controls)  
   `git clone https://github.com/iqaudio/Pi-Codec.git`  
   <img src="media\ScrCodecZeroGitClone.png" alt="ScrCodecZeroGitClone" style="width:400px;" />
-  
 - Load the configuration file, replace the number at the end of the command with the card number identified with arecord above  
-  `sudo alsactl restore -f Pi-Codec/IQaudIO_Codec_StereoMIC_record_and_HP_playback.state 2`
+  `sudo alsactl restore -f Pi-Codec/IQaudIO_Codec_StereoMIC_record_and_HP_playback.state 2`  
   <img src="media\ScrCodecZeroAlsactlRestore.png" alt="ScrCodecZeroAlsactlRestore" style="width:700px;" />
-  
-- Start AlsaMixer to configure the audio levels
+- Start AlsaMixer to configure the audio levels  
   `alsamixer`
-  
 - Press F6, select 'IQaudIOCODEC' and press Enter  
   <img src="media\ScrCodecZeroSelectSoundCard.png" alt="ScrCodecZeroSelectSoundCard" style="width:400px;" />
-  
-- Press F4 for capture settings, move with the cursor to 'Mic 2' and then set the level with Up key to the max
+- Press F4 for capture settings, move with the cursor to 'Mic 2' and then set the level with Up key to the max  
   <img src="media\ScrCodecZeroSelectMicLevel.png" alt="ScrCodecZeroSelectMicLevel" style="width:400px;" />
-  
 - The record level can be adjusted anytime with `alsamixer`.
-
 - If F5 is pressed, almost all codec parameters can be adjusted (see codec data sheet, [link](https://www.renesas.com/eu/en/products/analog-products/audio-video/audio-codecs/da7212-ultra-low-power-stereo-codec-650-w-always-power-mode)).
-
 - Quit AlsaMixer with ESC key and `reboot`
-
 - Test: DarkIce runs now with the Audio HAT 'IQaudio Codec Zero' with internal microphone. Connect your structure-borne noise sensor with the 3.5mm jack, the mic source will switch automatically.
-
-- **Important**: Depending on the place of use, the input sensitivity of the microphone input must be adjusted. To display the level of the stream, for example, go to the website https://p-node.org/vumeter/ and enter the URL of your stream.   
+- **Important**: Depending on the place of use, the input sensitivity of the microphone input must be adjusted. To display the level of the stream, for example, go to the website https://p-node.org/vumeter/ and enter the URL of your stream.  
   <img src="media\ScrCodecZeroVuMeter.png" alt="ScrCodecZeroVuMeter" style="width:700px;" />
-
 - The level display shows 0dB at maximum level (full scale). Ideally, the recording level should be as high as possible, but should never reach 0dB, otherwise strong signal distortions will occur (clipping).
-
 
 ## Audio HAT ''self-developed''
 
@@ -446,53 +428,46 @@ Required parts:
 
 ### Assembly
 
-
-
 <img src="media\HwPiJuiceParts.png" alt="HwPiJuiceParts" style="width:400px;" /> <img src="media\HwPiJuiceStack.png" alt="HwPiJuiceStack" style="width:400px;" /> 
 
 ### Software Installation
 
-- Open a terminal window and type:
-`sudo apt-get install -y pijuice-gui`
-- Restart your Raspberry Pi using the command
-`reboot`
+- Open a terminal window and type:  
+  `sudo apt-get install -y pijuice-gui`
+- Restart your Raspberry Pi using the command  
+  `reboot`
 
 ### **Setting the System Clock & RTC**
 
 With PiJuice, the Raspberry Pi can be shut down and started up again in a time-controlled manner. If this function is to be used, the real-time clock (RTC) must be set.
 
 - If you have an internet connection, system time will automatically be synched after boot and this will also sync with the RTC time.
-
 - Check whether the system time has been set correctly:
-
   - Shutdown Raspberry Pi, disconnect battery on PiJuice and wait one minute.
-
   - Reconnect battery and start Raspberry Pi
-
-  - To get time status, type 
-    `timedatectl status`
+  - To get time status, type  
+    `timedatectl status`  
     and check if universal time and RTC time match.
 
 > ToDo (optional): Screenshot von Seilsender mit allen drei Zeiten einfügen
 
 - After a restart, the system time must be automatically fetched from the RTC.  Configuration:
-  - Open the auto-start scrip rc.local with the Nano editor:
+  - Open the auto-start scrip rc.local with the Nano editor:  
     `sudo nano /etc/rc.local`
   - Move down with arrow keys (no mouse) to the end of the file.
-  - Add the following line to the file: 
-    `sudo hwclock -s`
-     It should look like this:
+  - Add the following line to the file:  
+    `sudo hwclock -s`  
+     It should look like this:  
     <img src="media\ScrPiJuiceHwclock.png" alt="ScrPiJuiceHwclock" style="width:400px;" />
   - Save with CTRL+O, then press Enter to confirm filename and exit Nano editor with CTRL+X.
-
 
 ### Configuration
 
 The most important settings are described below. Detailed information about the configuration of the PiJuice HAT can be found on PiJuice GitHub ([Link](https://github.com/PiSupply/PiJuice/tree/master/Software#pijuice-rtc)).
 
-- Open the PiJuice configuration menu with clicking on the PiJuice Icon, then click on 'Configure HAT':
+- Open the PiJuice configuration menu with clicking on the PiJuice Icon, then click on 'Configure HAT':  
   <img src="media\ScrPiJuiceSettingsHat.png" alt="ScrPiJuiceSettingsHat" style="width:400px;" />
-- To configure the buttons on PiJuce, set the options in the button tab as follows:
+- To configure the buttons on PiJuce, set the options in the button tab as follows:  
   <img src="media\ScrPiJuiceSettingsHatConfigButtons.png" alt="ScrPiJuiceSettingsHatConfigButtons" style="width:400px;" /> 
 - The hardware watchdog allows the system to restart automatically if no heart beat is detected. In the tab 'System Task', set time to 5 minutes:  
   <img src="media\ScrPiJuiceSettingsHatSystemTask.png" alt="ScrPiJuiceSettingsHatSystemTask" style="width:400px;" />
@@ -514,6 +489,4 @@ Required parts:
 | -------- | ---------------------- | ------------------------------------------------------------ |
 | 1        | Power Management Board | PiJuice HAT, includes 4x Mounting posts attached to PiJuice, 8x mounting screws (4 are already assembled to the board), [product link](https://www.distrelec.ch/de/pijuice-ups-hat-fuer-raspberry-pi-pi-supply-pis-0212/p/30163344) |
 |          |                        |                                                              |
-
-
 
