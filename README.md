@@ -142,42 +142,30 @@ The easiest way to set up the Raspberry Pi is to connect a mouse, keyboard and m
     
 - 'Create User' dialog  
   <img src="media\ScrFirstBootCreateUser.png" alt="ScrFirstBootCreateUser" style="width:400px;" />
-
   - Enter a username  
     The examples in this manual were all carried out with the user 'seilsender'. It may be easiest for you to use the user 'seilsender' as well.
-  - Untick the “Hide characters” checkbox to see if your password was entered correctly.  Enter your new password.
-
+  - Untick the “Hide characters” checkbox to see if your password was entered correctly.  Enter your new password.  
   **Important:** Remember your Raspberry Pi username a password, you will need them later! Username and password are case sensitive.
-
 - 'Select Wi-Fi Network' dialog: The system searches available Wi-Fi Networks.
-
 - If you want to connect via ethernet cable, press 'Skip', else
 - select the desired Wi-Fi Network, press 'Next and enter your Wi-Fi password.
   Note: At this point, the keyboard layout is not yet set, so entering the password may be a little tricky. Untick 'Hide Characters'.
-
 - The next step is to update the software. This may take a few minutes. Please be patient…
-
 - Click 'Restart' to reboot your Raspberry Pi.
-
 - After restarting the Pi, you should be shown your desktop.  
   <img src="media\ScrRaspiDesktop.png" alt="ScrRaspiDesktop" style="width:700px;" />
-
 - Hint: If you want to start the welcome wizard again, open a console window an enter `sudo piwiz`
 
 ### Raspberry Pi Configuration
 
 - Open the Menu in the top let corner and navigate to Preferences -\> Raspberry Pi Configuration.  
   <img src="media\ScrRaspiConfig.png" alt="ScrRaspiConfig" style="width:700px;" />
-
 - 'Interfaces' tab: Turn on SSH (opt.), VNC and I2C  
   <img src="media\ScrRaspiConfigInterface.png" alt="ScrRaspiConfigInterface" style="width:400px;" />
-
 - 'Localisation' tab / Set Keyboard: Check if your keyboard layout is correct (Example for Swiss German Keyboard)  
   <img src="media\ScrRaspiConfigKeyboard.png" alt="ScrRaspiConfigKeyboard" style="width:400px;" />
-
 - 'Display' tab: To configure the display size used later by VNC, select a moderate Headless Resolution (for example 1024 x 768). A higher resolution will later require more bandwidth and computing power. You can also change this value later if you run into any problems.  
   <img src="media\ScrRaspiConfigIDisplay.png" alt="ScrRaspiConfigIDisplay" style="width:400px;" />
-
 - After changing Headless Resolution, you will be asked to reboot, confirm to reboot.
 
 ### Set up VNC
@@ -187,10 +175,8 @@ VNC is used to remotely manage your Raspberry Pi via internet connection. VNC-Se
 **Create a VNC account if you don't already have one:**
 
 - Start the web browser on your PC an go to <https://manage.realvnc.com/en/> and enter your e-mail address.
-
-- Create a 'VNC connect' account following the instructions (select 'personal use'.)
+- Create a 'VNC connect' account following the instructions (select 'personal use'.)  
   **Important: Remember your 'VNC connect' credentials, you will need them later!**
-
 - Activate 'HOME' edition of VNC Connect  
   <img src="media\ScrVncActivate.png" alt="ScrVncActivate" style="zoom:100%;" />
 
@@ -200,7 +186,7 @@ VNC is used to remotely manage your Raspberry Pi via internet connection. VNC-Se
   <img src="media\ScrVncSignin.png" alt="ScrVncSignin" style="width:400px;" />
 - Sign in with your 'VNC connect' credentials and follow the instructions.
 - Enter an additional VNC password for this device:  
-  <img src="media\ScrVncAuthentication.png" alt="ScrVncAuthentication" style="width:400px;" /> 
+  <img src="media\ScrVncAuthentication.png" alt="ScrVncAuthentication" style="width:400px;" />  
   **Important: Remember your VNC password, you will need it later to access your Raspberry Pi**
 - On the summary tab, it is possible to enter an individual name for VNC (makes in easier if you have more than one device within VNC connect)  
   <img src="media\ScrVncSummary.png" alt="ScrVncSummary" style="width:400px;" />
@@ -220,7 +206,7 @@ Install VNC Viewer on your PC:
 
 To stream your recordings to the Seilsender-Website, you have to apply for an official Streaming-Id (Mountpoint) and a password.
 
-- ...
+- ...  
 **Important:** Keep your Streaming-Id (Mountpoint) and a password in a safe place
 
 > ToDo: Prozess definieren, z.B. Webformular ausfüllen und Zustellung von 
@@ -232,7 +218,7 @@ DarkIce records audio from an audio interface (e.g. sound card), encodes it and 
 - Open a console Window on your Raspberry Pi with clicking the black button in the top left.  
   <img src="media\ScrRaspiDesktopConsole.png" alt="ScrRaspiDesktopConsole" style="zoom:100%;" />
     
-- Install DarkIce with the following command: 
+- Install DarkIce with the following command:  
   `sudo apt-get install -y darkice`  
   <img src="media\ScrRaspiConsoleInstallDarkice.png" alt="ScrRaspiConsoleInstallDarkice" style="width:700px;" />
     
@@ -242,7 +228,9 @@ DarkIce records audio from an audio interface (e.g. sound card), encodes it and 
 - Then we download the templates of the config files:  
   `wget https://raw.githubusercontent.com/LarsBachmann/Seilsender/main/darkice/darkice.cfg`  
   `wget https://raw.githubusercontent.com/LarsBachmann/Seilsender/main/darkice/launch_darkice.sh`   
-- Type `ls` and press enter, you should see the two files `darkice.cfg` and `launch_darkice.sh`.  
+- Type  
+  `ls`  
+  and press enter, you should see the two files `darkice.cfg` and `launch_darkice.sh`.  
   <img src="media\ScrDarkiceFiles.png" alt="ScrDarkiceFiles" style="width:400px;" />
 - The file launch_darkice.sh is a simple script to launch DarkIce, but it must be made executable first:  
   `sudo chmod 777 launch_darkice.sh`
@@ -272,9 +260,11 @@ DarkIce records audio from an audio interface (e.g. sound card), encodes it and 
 
 To start DarkIce automatically on boot, integrate the script `launch_darkice.sh` into startup procedure:
 
-- Use the command `pwd`  to display the path to the launch_darkice.sh script and copy it by marking it with the mouse, right clicking and selecting "Copy".  
+- Use the command  
+  `pwd`  
+  to display the path to the launch_darkice.sh script and copy it by marking it with the mouse, right clicking and selecting "Copy".  
   <img src="media\ScrDarkicepwd.png" alt="ScrDarkicepwd" style="width:400px;" />
-- Open the system-wide crontab with Nano editor
+- Open the system-wide crontab with Nano editor  
   `sudo nano /etc/crontab`
 - Move down with arrow keys (no mouse) to the end of the crontab file
 - Add the following line to the file:  
@@ -284,7 +274,7 @@ To start DarkIce automatically on boot, integrate the script `launch_darkice.sh`
   <img src="media\SrcCrontab.png" alt="SrcCrontab" style="width:700px;" />
 - Save with CTRL+O, then press Enter to confirm filename and exit Nano editor with CTRL+X.
 - To test, reboot the Raspberry Pi with typing the command  
-  `reboot` 
+  `reboot`  
   or use the Menu (top left corner) > Logout > Reboot.
 - DarkIce should start automatically after about a minute. Open the website http://seilsender.babros.ch/ on your PC to see if your stream shows up.
   
@@ -309,7 +299,7 @@ Required parts:
 If there’s no Wi-Fi or Ethernet available, you can use an LTE USB stick to connect to the cellular network. For this guide I used the Huawei LTE-Stick E3372h-320, but other sticks should work about the same.
 
 - Open your LTE-Stick and make your Data SIM card ready and insert it  
-  <img src="media\HwLteStickOpen.png" alt="HwLteStickOpen" style="width:400px;" />
+  <img src="media\HwLteStickOpen.png" alt="HwLteStickOpen" style="width:400px;" />  
   **Important: Make sure that the contacts of your Data SIM card are oriented towards the LTE-Stick**
 - Connect the LTE Stick with an USB-Port on your PC.
 - Proceed according to the instructions for your LTE-Stick. Typically, a configuration wizard starts automatically. If not, open http://192.168.8.1 in your browser. Follow the instructions in the wizard. Make sure that SIM PIN entry is disabled.
@@ -368,14 +358,15 @@ The microphone input of the USB sound card from the basic configuration is not v
 | 1        | IQaudio Codec Zero | Audio HAT for Raspberry Pi, DA7212 codec, [product link](https://www.pi-shop.ch/iqaudio-codec-zero) |
 
 - Remove USB-Audio card if connected.
-- To avoid conflicts, it is recommended to disable the internal sound card of the Raspberry Pi (affects any audio playback). Open the file /boot/config.txt with Nano editor  
-  `sudo nano /boot/config.txt`
+- To avoid conflicts, it is recommended to disable the internal sound card of the Raspberry Pi (affects any audio playback).
+  - Open the file /boot/config.txt with Nano editor  
+    `sudo nano /boot/config.txt`
 
-- Move down with arrow keys (no mouse) to the entry `dtparam=audio=on`. Set a hash character '#' in front of the line:  
-  <img src="media\ScrCodecZeroDtparam.png" alt="ScrCodecZeroDtparam" style="width:400px;" />
-- Save with CTRL+O, then press Enter to confirm filename and exit Nano editor with CTRL+X.
-- Reboot the Raspberry Pi with typing the command  
-  `reboot`
+  - Move down with arrow keys (no mouse) to the entry `dtparam=audio=on`. Set a hash character '#' in front of the line:  
+    <img src="media\ScrCodecZeroDtparam.png" alt="ScrCodecZeroDtparam" style="width:400px;" />
+  - Save with CTRL+O, then press Enter to confirm filename and exit Nano editor with CTRL+X.
+  - Reboot the Raspberry Pi with typing the command  
+    `reboot`
 - List the recording devices to get the correct card-number  
   `arecord -l`  
   <img src="media\ScrCodecZeroArecord.png" alt="ScrCodecZeroArecord" style="width:400px;" />
@@ -391,10 +382,11 @@ The microphone input of the USB sound card from the basic configuration is not v
   <img src="media\ScrCodecZeroSelectSoundCard.png" alt="ScrCodecZeroSelectSoundCard" style="width:400px;" />
 - Press F4 for capture settings, move with the cursor to 'Mic 2' and then set the level with Up key to the max  
   <img src="media\ScrCodecZeroSelectMicLevel.png" alt="ScrCodecZeroSelectMicLevel" style="width:400px;" />
-- The record level can be adjusted anytime with `alsamixer`.
+- The record level can be adjusted anytime with alsamixer.
 - If F5 is pressed, almost all codec parameters can be adjusted (see codec data sheet, [link](https://www.renesas.com/eu/en/products/analog-products/audio-video/audio-codecs/da7212-ultra-low-power-stereo-codec-650-w-always-power-mode)).
-- Quit AlsaMixer with ESC key and `reboot`
-- Test: DarkIce runs now with the Audio HAT 'IQaudio Codec Zero' with internal microphone. Connect your structure-borne noise sensor with the 3.5mm jack, the mic source will switch automatically.
+- Quit AlsaMixer with ESC key and  
+  `reboot`
+- Test: DarkIce runs now with the Audio HAT 'IQaudio Codec Zero' with internal microphone. Connect your structure-borne noise sensor with the 3.5mm jack, the mic source will switch automatically.  
 - **Important**: Depending on the place of use, the input sensitivity of the microphone input must be adjusted. To display the level of the stream, for example, go to the website https://p-node.org/vumeter/ and enter the URL of your stream.  
   <img src="media\ScrCodecZeroVuMeter.png" alt="ScrCodecZeroVuMeter" style="width:700px;" />
 - The level display shows 0dB at maximum level (full scale). Ideally, the recording level should be as high as possible, but should never reach 0dB, otherwise strong signal distortions will occur (clipping).
@@ -461,11 +453,12 @@ The most important settings are described below. Detailed information about the 
 - To configure the buttons on PiJuce, set the options in the button tab as follows:  
   <img src="media\ScrPiJuiceSettingsHatConfigButtons.png" alt="ScrPiJuiceSettingsHatConfigButtons" style="width:400px;" /> 
 - The hardware watchdog allows the system to restart automatically if no heart beat is detected. In the tab 'System Task', set time to 5 minutes:  
-  <img src="media\ScrPiJuiceSettingsHatSystemTask.png" alt="ScrPiJuiceSettingsHatSystemTask" style="width:400px;" />
-  Note: At shutdown pijuice_sys.py disables the watchdog. Normally the watchdog is only active when the PiJuice service (pijuice_sys.py) is running and the watchdog is enabled. If you want the system to restart automatically after an (accidental) shutdown, you must comment out the deactivation of the watchdog during shutdown in pijuice_sys.py ([Link](https://github.com/PiSupply/PiJuice/issues/492)). 
+  <img src="media\ScrPiJuiceSettingsHatSystemTask.png" alt="ScrPiJuiceSettingsHatSystemTask" style="width:400px;" />  
+  **Note**: At shutdown pijuice_sys.py disables the watchdog. Normally the watchdog is only active when the PiJuice service (pijuice_sys.py) is running and the watchdog is enabled. If you want the system to restart automatically after an (accidental) shutdown, you must comment out the deactivation of the watchdog during shutdown in pijuice_sys.py ([Link](https://github.com/PiSupply/PiJuice/issues/492)). 
 - Stop system if charge level is below 'Minimum charge:  
   <img src="media\ScrPiJuiceSettingsHatSystemEvents.png" alt="ScrPiJuiceSettingsHatSystemEvents" style="width:400px;" />
-- Press 'Apply' and enter `reboot`
+- Press 'Apply' and enter  
+  `reboot`
 - PiJuice is now ready to use.
 
 ## Solar Power Supply
