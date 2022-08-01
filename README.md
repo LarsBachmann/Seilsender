@@ -148,14 +148,14 @@ The easiest way to set up the Raspberry Pi is to connect a mouse, keyboard and m
   - Untick the “Hide characters” checkbox to see if your password was entered correctly.  Enter your new password twice and press Enter.
   - **Important:** Remember your Raspberry Pi username a password, you will need them later! Username and password are case sensitive.
 - 'Select Wi-Fi Network' dialog: The system searches available Wi-Fi Networks.
-- If you want to connect via ethernet cable, press 'Skip', else
-- select the desired Wi-Fi Network, press 'Next and enter your Wi-Fi password.  
+- If you want to connect via ethernet cable, press 'Skip', else select the desired Wi-Fi Network, press 'Next and enter your Wi-Fi password.  
    **Note**: At this point, the keyboard layout is not yet set, so entering the password may be a little tricky. Untick 'Hide Characters'.
 - The next step is to update the software. This may take a few minutes. Please be patient…
 - Click 'Restart' to reboot your Raspberry Pi.
 - After restarting the Pi, you should be shown your desktop.  
   <img src="media\ScrRaspiDesktop.png" alt="ScrRaspiDesktop" style="width:700px;" />
-- Hint: If you want to start the welcome wizard again, open a console window an enter `sudo piwiz`
+- Hint: If you want to start the welcome wizard again, open a console window an enter  
+  `sudo piwiz`
 
 ### Raspberry Pi Configuration
 
@@ -226,9 +226,11 @@ DarkIce records audio from an audio interface (e.g. sound card), encodes it and 
 - DarkIce needs a configuration file containing all necessary settings. Create a subdirectory and change to the new directory:  
   `mkdir darkice`  
   `cd darkice` 
-- Then we download the templates of the config files:  
+- Then we download the two templates of the config files:  
   `wget https://raw.githubusercontent.com/LarsBachmann/Seilsender/main/darkice/darkice.cfg`  
-  `wget https://raw.githubusercontent.com/LarsBachmann/Seilsender/main/darkice/launch_darkice.sh`   
+    presse Enter  
+  `wget https://raw.githubusercontent.com/LarsBachmann/Seilsender/main/darkice/launch_darkice.sh`  
+    press Enter.
 - Type  
   `ls`  
   and press enter, you should see the two files `darkice.cfg` and `launch_darkice.sh`.  
