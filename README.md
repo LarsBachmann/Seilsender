@@ -233,7 +233,7 @@ DarkIce records audio from an audio interface (e.g. sound card), encodes it and 
     press Enter.
 - Type  
   `ls`  
-  and press enter, you should see the two files `darkice.cfg` and `launch_darkice.sh`.  
+  and press enter, you should only see the two files `darkice.cfg` and `launch_darkice.sh`.  
   <img src="media\ScrDarkiceFiles.png" alt="ScrDarkiceFiles" style="width:400px;" />
 - The file launch_darkice.sh is a simple script to launch DarkIce, but it must be made executable first:  
   `sudo chmod 777 launch_darkice.sh`
@@ -256,12 +256,13 @@ DarkIce records audio from an audio interface (e.g. sound card), encodes it and 
   - The warning 'Could not set POSIX real-time scheduling...' can be ignored.
   - Open the URL http://seilsender.babros.ch/ on your PC and check if your stream is listed:  
       <img src="media\ScrIcecast2Test.png" alt="ScrIcecast2Test" style="width:300px;" />
+  >ToDo: Link anpassen, sobald subdomain streaming.seilsender.ch zur Verfügung steht.
   - Click the play-icon below your mount point. You should hear the sound your structure-borne noise sensor is recording. Please note that there can be a few seconds of delay.
 - To stop streaming with DarkIce, press CTRL+C in the console-window.
 
 ### Set up DarkIce to automatically start on boot
 
-To start DarkIce automatically on boot, integrate the script `launch_darkice.sh` into startup procedure:
+To start DarkIce automatically on boot, integrate the script 'launch_darkice.sh' into startup procedure:
 
 - Use the command  
   `pwd`  
@@ -360,7 +361,12 @@ The microphone input of the USB sound card from the basic configuration is not v
 | -------- | ------------------ | ------------------------------------------------------------ |
 | 1        | IQaudio Codec Zero | Audio HAT for Raspberry Pi, DA7212 codec, [product link](https://www.pi-shop.ch/iqaudio-codec-zero) |
 
+- Shutdown your Raspberry Pi using the command  
+  `poweroff`
+- Disconnect your Raspberry Pi from any power supply.
 - Remove USB-Audio card if connected.
+- Mount the HAT 'IQaudio Codec Zero' on the headers of the Raspberry Pi.
+- Power on your Raspberry Pi and open a console window.
 - To avoid conflicts, it is recommended to disable the internal sound card of the Raspberry Pi (affects any audio playback).
   - Open the file /boot/config.txt with Nano editor  
     `sudo nano /boot/config.txt`
