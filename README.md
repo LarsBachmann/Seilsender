@@ -47,9 +47,9 @@ Proceed as follows:
 -   Hot Glue as kink protection
   Over time, the cables tend to break right where they enter the case, making the structure-borne noise sensor useless as you can’t install new cables. A drop of hot glue can act as a strain relief. Make sure the surface of the structure-borne noise sensor is clean before applying the hot glue. Roughing up the surface with some sandpaper can also increase the adhesion.  
    <img src="media\VisatonRearViewGlueing.png" alt="VisatonRearViewGlueing" style="width:300px;" /> <img src="media\VisatonRearView.png" alt="VisatonRearView" style="width:300px;" />
--   Disassemble the plug by unscrewing the back cover.   
-  <img src="media\AudioJack.png" alt="AudioJack" style="width:400px;" />
-  
+-   Disassemble the plug by unscrewing the back cover.  
+<img src="media\AudioJack.png" alt="AudioJack" style="width:400px;" />
+
 -   Use a wire stripper to remove about 5 mm of insulation off the cables.
 My cables already had the isolation removed but you might need to remove yours.
 -   Tin the end of the cable.
