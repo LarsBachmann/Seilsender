@@ -135,7 +135,7 @@ The easiest way to set up the Raspberry Pi is to connect a mouse, keyboard and m
 - If everything is connected, switch on the Raspberry Pi. After a few seconds, the Welcome Wizard starts. If nothing happens, try to use the other HDMI port of your Raspberry Pi.  
   <img src="media\ScrFirstBootWelcome.png" alt="ScrFirstBootWelcome" style="width:400px;" />
 
-- The welcome wizard will guide you through the most important settings of your Raspberry Pi.  Follow the instructions on the Screen. Click 'Next' to start the wizard.
+  Click 'Next' to start the wizard. The welcome wizard will guide you through the most important settings of your Raspberry Pi.  Follow the instructions on the Screen.
 
 - 'Set Country' dialog  
   Country and language selection should correspond with your keyboard layout. We recommend ticking checkbox 'Use English language'. A wrong keyboard layout can switch out certain characters.  
