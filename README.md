@@ -50,8 +50,7 @@ Proceed as follows:
 - Disassemble the plug by unscrewing the back cover.  
   <img src="media\AudioJack.png" alt="AudioJack" style="width:400px;" />
 
-- Use a wire stripper to remove about 5 mm of insulation off the cables.
-My cables already had the isolation removed but you might need to remove yours.
+- Use a wire stripper to remove about 5 mm of insulation off the cables. My cables already had the isolation removed but you might need to remove yours.  
   <img src="media\AudioJackWireStripped.png" alt="AudioJackWireStripped" style="width:400px;" />
 -   Tin the end of the cable.
 -   Turn on the soldering iron, wait for it to heat up, and set it down on the table without letting the tip touch the table. Hold the cable in one hand and the solder in the other. You can also use a helping hand to keep the cable in place while holding the soldering iron and solder with your hands.
