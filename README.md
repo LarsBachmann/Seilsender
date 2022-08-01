@@ -149,7 +149,7 @@ The easiest way to set up the Raspberry Pi is to connect a mouse, keyboard and m
 - 'Select Wi-Fi Network' dialog: The system searches available Wi-Fi Networks.
 - If you want to connect via ethernet cable, press 'Skip', else
 - select the desired Wi-Fi Network, press 'Next and enter your Wi-Fi password.  
-  **Note**: At this point, the keyboard layout is not yet set, so entering the password may be a little tricky. Untick 'Hide Characters'.
+   **Note**: At this point, the keyboard layout is not yet set, so entering the password may be a little tricky. Untick 'Hide Characters'.
 - The next step is to update the software. This may take a few minutes. Please be patient…
 - Click 'Restart' to reboot your Raspberry Pi.
 - After restarting the Pi, you should be shown your desktop.  
