@@ -5,7 +5,7 @@ We have developed a device ('Seilsender', German for "Rope Transmitter") that re
 
 Interested? Then join our project. The instructions below describe how you can set up your own 'Seilsender' and contribute to the diverse collection of sounds.
 
-You can find more information at [seilsender.ch](http://www.seilsender.ch/).
+You can find more information at [seilsender.ch](https://www.seilsender.ch/).
 
 <img src="media\SeilbahnMünsterfähre.png" alt="SeilbahnMünsterfähre.png" style="height:170px;" /> <img src="media\SeilbahnStutzObsaum.png" alt="SeilbahnStutzObsaum" style="height:170px;" /> <img src="media\HwOverviewCaseOpen.png" alt="HwOverviewCaseOpen" style="height:170px;" /> 
 
@@ -254,7 +254,7 @@ DarkIce records audio from an audio interface (e.g. sound card), encodes it and 
     into the console. DarkIce will start streaming:  
     <img src="media\ScrDarkiceStart.png" alt="ScrDarkiceStart" style="width:700px;" />
   - The warning 'Could not set POSIX real-time scheduling...' can be ignored.
-  - Open the URL http://streamout.seilsender.ch/ on your PC and check if your stream is listed:  
+  - Open the URL https://streamout.seilsender.ch/ on your PC and check if your stream is listed:  
       <img src="media\ScrIcecast2Test.png" alt="ScrIcecast2Test" style="width:300px;" />
   >ToDo: Link anpassen, sobald subdomain streaming.seilsender.ch zur Verfügung steht.
   - Click the play-icon below your mount point. You should hear the sound your structure-borne noise sensor is recording. Please note that there can be a few seconds of delay.
@@ -280,7 +280,7 @@ To start DarkIce automatically on boot, integrate the script 'launch_darkice.sh'
 - To test, reboot the Raspberry Pi with typing the command  
   `reboot`  
   or use the Menu (top left corner) > Logout > Reboot.
-- DarkIce should start automatically after about a minute. Open the website http://streamout.seilsender.ch/ on your PC to see if your stream shows up.
+- DarkIce should start automatically after about a minute. Open the website https://streamout.seilsender.ch/ on your PC to see if your stream shows up.
   
 > ToDo: Link anpassen, sobald subdomain streaming.seilsender.ch zur Verfügung steht.
 
@@ -393,7 +393,7 @@ The microphone input of the USB sound card from the basic configuration is not v
 - If F5 is pressed, almost all codec parameters can be adjusted (see codec data sheet, [link](https://www.renesas.com/eu/en/products/analog-products/audio-video/audio-codecs/da7212-ultra-low-power-stereo-codec-650-w-always-power-mode)).
 - Quit AlsaMixer with ESC key and  
   `reboot`
-- Test: DarkIce runs now with the Audio HAT 'IQaudio Codec Zero' with internal microphone. Open the URL http://streamout.seilsender.ch/ on your PC and check if your stream is listed and playing.  
+- Test: DarkIce runs now with the Audio HAT 'IQaudio Codec Zero' with internal microphone. Open the URL https://streamout.seilsender.ch/ on your PC and check if your stream is listed and playing.  
   Connect your structure-borne noise sensor with the 3.5mm jack, the mic source will switch automatically.  
 - **Important**: Depending on the place of use, the input sensitivity of the microphone input must be adjusted. To display the level of the stream, for example, go to the website https://p-node.org/vumeter/ and enter the URL of your stream.  
   <img src="media\ScrCodecZeroVuMeter.png" alt="ScrCodecZeroVuMeter" style="width:700px;" />
