@@ -256,7 +256,6 @@ DarkIce records audio from an audio interface (e.g. sound card), encodes it and 
   - The warning 'Could not set POSIX real-time scheduling...' can be ignored.
   - Open the URL https://streamout.seilsender.ch/ on your PC and check if your stream is listed:  
       <img src="media\ScrIcecast2Test.png" alt="ScrIcecast2Test" style="width:300px;" />
-  >ToDo: Link anpassen, sobald subdomain streaming.seilsender.ch zur Verfügung steht.
   - Click the play-icon below your mount point. You should hear the sound your structure-borne noise sensor is recording. Please note that there can be a few seconds of delay.
 - To stop streaming with DarkIce, press CTRL+C in the console-window.
 
@@ -281,9 +280,6 @@ To start DarkIce automatically on boot, integrate the script 'launch_darkice.sh'
   `reboot`  
   or use the Menu (top left corner) > Logout > Reboot.
 - DarkIce should start automatically after about a minute. Open the website https://streamout.seilsender.ch/ on your PC to see if your stream shows up.
-  
-> ToDo: Link anpassen, sobald subdomain streaming.seilsender.ch zur Verfügung steht.
-
 - If you want to stop darkice manually, open a console and enter `sudo killall darkice`
 
 
