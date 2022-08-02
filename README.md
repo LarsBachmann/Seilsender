@@ -399,12 +399,6 @@ The microphone input of the USB sound card from the basic configuration is not v
   <img src="media\ScrCodecZeroVuMeter.png" alt="ScrCodecZeroVuMeter" style="width:700px;" />
 - The level display shows 0dB at maximum level (full scale). Ideally, the recording level should be as high as possible, but should never reach 0dB, otherwise strong signal distortions will occur (clipping).
 
-## Audio HAT ''self-developed''
-
-Coming Soon...
-
-> ToDo: Konfiguration Audio HAT beschreiben, sobald bekannt.
-
 ## PiJuice HAT
 
 The PiJuice HAT is a very helpful add-on if you want to use your Raspberry Pi in an environment without a reliable power grid available. 
