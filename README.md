@@ -274,7 +274,7 @@ To start DarkIce automatically on boot, integrate the script 'launch_darkice.sh'
   `@reboot root /bin/sudo -u <USER> <PATH>/launch_darkice.sh`
 - Replace `<USER>` with the username you chose and `<PATH>` with the path you just copied by moving the cursor to the correct spot, right clicking and selecting "Paste" (Example: `@reboot root /bin/sudo -u seilsender /home/seilsender/darkice/launch_darkice.sh`).
 - Also add the follwing line which will reboot the Raspberry Pi every day at midnight.   
-  '0  0    * * *   root    /sbin/shutdown -r now'
+  `0  0    * * *   root    /sbin/shutdown -r now`
 - It should look similar to this:  
   <img src="media\SrcCrontab.png" alt="SrcCrontab" style="width:700px;" />
 - Save with CTRL+O, then press Enter to confirm filename and exit Nano editor with CTRL+X.
