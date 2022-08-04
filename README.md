@@ -395,7 +395,7 @@ The microphone input of the USB sound card from the basic configuration is not v
   `reboot`
 - Test: DarkIce runs now with the Audio HAT 'IQaudio Codec Zero' with internal microphone. Open the URL https://streamout.seilsender.ch/ on your PC and check if your stream is listed and playing.  
   Connect your structure-borne noise sensor with the 3.5mm jack, the mic source will switch automatically.  
-- **Important**: Depending on the place of use, the input sensitivity of the microphone input must be adjusted. To display the level of the stream, for example, go to the website https://p-node.org/vumeter/ and enter the URL of your stream.  
+- **Important**: Depending on the place of use, the input sensitivity of the microphone input must be adjusted. To display the level of the stream, for example, go to the website https://p-node.org/vumeter/ and enter the URL of your stream (e.g. https://streamout.seilsender.ch/Seilsender-005).  
   <img src="media\ScrCodecZeroVuMeter.png" alt="ScrCodecZeroVuMeter" style="width:700px;" />
 - The level display shows 0dB at maximum level (full scale). Ideally, the recording level should be as high as possible, but should never reach 0dB, otherwise strong signal distortions will occur (clipping).
 
