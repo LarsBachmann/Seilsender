@@ -139,8 +139,7 @@ The easiest way to set up the Raspberry Pi is to connect a mouse, keyboard and m
 
 - 'Set Country' dialog  
   Country and language selection should correspond with your keyboard layout. We recommend ticking checkbox 'Use English language'. A wrong keyboard layout can switch out certain characters.  
-  <img src="media\ScrFristBootUpdateSoftware.png" alt="ScrFristBootUpdateSoftware" style="width:400px;" />
-    
+  <img src="media\ScrFirstBootCountry.png" alt="ScrFirstBootCountry" style="width:400px;" />  
 - 'Create User' dialog  
   <img src="media\ScrFirstBootCreateUser.png" alt="ScrFirstBootCreateUser" style="width:400px;" />
   - Enter a username  
@@ -151,7 +150,7 @@ The easiest way to set up the Raspberry Pi is to connect a mouse, keyboard and m
 - If you want to connect via ethernet cable, press 'Skip', else select the desired Wi-Fi Network, press 'Next and enter your Wi-Fi password.  
    **Note**: At this point, the keyboard layout is not yet set, so entering the password may be a little tricky. Untick 'Hide Characters'.
 - The next step is to update the software. This may take a few minutes. Please be patient…  
-  <img src="media\ScrFirstBootCountry.png" alt="ScrFirstBootCountry" style="width:400px;" />
+  <img src="media\ScrFristBootUpdateSoftware.png" alt="ScrFristBootUpdateSoftware" style="width:400px;" />
 - Click 'Restart' to reboot your Raspberry Pi.
 - After restarting the Pi, you should be shown your desktop.  
   <img src="media\ScrRaspiDesktop.png" alt="ScrRaspiDesktop" style="width:700px;" />
