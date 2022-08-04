@@ -201,7 +201,9 @@ Install VNC Viewer on your PC:
 - Download VNC Viewer using <https://www.realvnc.com/en/connect/download/viewer/> and install it.
 - Open VNC Viewer sign with your 'VNC connect' credentials.
 - Then select your team, you and double-click on the Raspberry Pi on the right side to connect. You’ll need to enter your VNC-Password you defined during VNC Setup.
-- After you are connected, you can now control the Raspberry Pi via Internet an VNC from your PC. You will no longer need dedicated keyboard, mouse and monitor to access your Raspberry Pi.
+- After you are connected, you can now control the Raspberry Pi via the Internet and VNC from your PC. You will no longer need a dedicated keyboard, mouse and monitor to access your Raspberry Pi. 
+
+We recommend you use VNC from this point on to remotely configure your Raspberry Pi.
 
 ### Register your Seilsender
 
