@@ -422,6 +422,23 @@ Required parts:
 - Restart your Raspberry Pi using the command  
   `reboot`
 
+### Configuration
+
+The most important settings are described below. Detailed information about the configuration of the PiJuice HAT can be found on PiJuice GitHub ([Link](https://github.com/PiSupply/PiJuice/tree/master/Software#pijuice-rtc)).
+
+- Open the PiJuice configuration menu with clicking on the PiJuice Icon, then click on 'Configure HAT':  
+  <img src="media\ScrPiJuiceSettingsHat.png" alt="ScrPiJuiceSettingsHat" style="width:400px;" />
+- To configure the buttons on PiJuce, set the options in the button tab as follows:  
+  <img src="media\ScrPiJuiceSettingsHatConfigButtons.png" alt="ScrPiJuiceSettingsHatConfigButtons" style="width:400px;" /> 
+- The hardware watchdog allows the system to restart automatically if no heart beat is detected. In the tab 'System Task', set time to 5 minutes:  
+  <img src="media\ScrPiJuiceSettingsHatSystemTask.png" alt="ScrPiJuiceSettingsHatSystemTask" style="width:400px;" />  
+-  **Note**: At shutdown pijuice_sys.py disables the watchdog. Normally the watchdog is only active when the PiJuice service (pijuice_sys.py) is running and the watchdog is enabled. If you want the system to restart automatically after an (accidental) shutdown, you must comment out the deactivation of the watchdog during shutdown in pijuice_sys.py ([Link](https://github.com/PiSupply/PiJuice/issues/492)). 
+- Stop system if charge level is below 'Minimum charge:  
+  <img src="media\ScrPiJuiceSettingsHatSystemEvents.png" alt="ScrPiJuiceSettingsHatSystemEvents" style="width:400px;" />
+- Press 'Apply' and enter  
+  `reboot`
+- PiJuice is now ready to use.
+
 ### **Setting the System Clock & RTC**
 
 With PiJuice, the Raspberry Pi can be shut down and started up again in a time-controlled manner. If this function is to be used, the real-time clock (RTC) must be set.
@@ -445,23 +462,6 @@ With PiJuice, the Raspberry Pi can be shut down and started up again in a time-c
      It should look like this:  
     <img src="media\ScrPiJuiceHwclock.png" alt="ScrPiJuiceHwclock" style="width:400px;" />
   - Save with CTRL+O, then press Enter to confirm filename and exit Nano editor with CTRL+X.
-
-### Configuration
-
-The most important settings are described below. Detailed information about the configuration of the PiJuice HAT can be found on PiJuice GitHub ([Link](https://github.com/PiSupply/PiJuice/tree/master/Software#pijuice-rtc)).
-
-- Open the PiJuice configuration menu with clicking on the PiJuice Icon, then click on 'Configure HAT':  
-  <img src="media\ScrPiJuiceSettingsHat.png" alt="ScrPiJuiceSettingsHat" style="width:400px;" />
-- To configure the buttons on PiJuce, set the options in the button tab as follows:  
-  <img src="media\ScrPiJuiceSettingsHatConfigButtons.png" alt="ScrPiJuiceSettingsHatConfigButtons" style="width:400px;" /> 
-- The hardware watchdog allows the system to restart automatically if no heart beat is detected. In the tab 'System Task', set time to 5 minutes:  
-  <img src="media\ScrPiJuiceSettingsHatSystemTask.png" alt="ScrPiJuiceSettingsHatSystemTask" style="width:400px;" />  
--  **Note**: At shutdown pijuice_sys.py disables the watchdog. Normally the watchdog is only active when the PiJuice service (pijuice_sys.py) is running and the watchdog is enabled. If you want the system to restart automatically after an (accidental) shutdown, you must comment out the deactivation of the watchdog during shutdown in pijuice_sys.py ([Link](https://github.com/PiSupply/PiJuice/issues/492)). 
-- Stop system if charge level is below 'Minimum charge:  
-  <img src="media\ScrPiJuiceSettingsHatSystemEvents.png" alt="ScrPiJuiceSettingsHatSystemEvents" style="width:400px;" />
-- Press 'Apply' and enter  
-  `reboot`
-- PiJuice is now ready to use.
 
 ## Solar Power Supply
 
