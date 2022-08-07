@@ -13,8 +13,6 @@ Pictures: Münsterfähre (cable ferry), Basel, CH / Material ropeway, Stutz-Obsa
 
 > ToDo: Introduction überarbeiten / validieren mit M.R.
 
-
-
 # Basic Configuration Setup Guide
 
 The basic configuration setup guide describes all steps necessary to start streaming audio with your Raspberry Pi.
@@ -80,8 +78,6 @@ Proceed as follows:
   <img src="media\AudioJackInsulation.png" alt="AudioJackInsuliation" style="width:300px;" />  <img src="media\AudioJackAssembled.png" alt="AudioJackAssembled" style="width:300px;" />
 - It is important that the structure-borne noise sensor is firmly mounted to the rope way cable. One way to achieve this is to screw the sensor to a screw clamp:  
   <img src="media\VisatonScrewClamp.png" alt="VisatonScrewClamp" style="width:400px;" />
-
-> ToDo (optional): Neues Bild mit oranger Zwinge und gedrucktem Prisma
 
 
 ## Setting up your Raspberry Pi
@@ -207,9 +203,8 @@ We recommend you use VNC from this point on to remotely configure your Raspberry
 
 ### Register your Seilsender
 
-To stream your recordings to the Seilsender-Website, you have to apply for an official Streaming-Id (Mountpoint) and a password.
+To stream your recordings to the Seilsender-Website, you have to apply for an official Streaming-Id (Mountpoint) and a password. Please contact http://seilsender.ch/ to get further information.
 
-- ...  
 **Important:** Keep your Streaming-Id (Mountpoint) and a password in a safe place
 
 > ToDo: Prozess definieren, z.B. Webformular ausfüllen und Zustellung von 
