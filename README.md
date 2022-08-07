@@ -11,7 +11,6 @@ You can find more information at [seilsender.ch](https://www.seilsender.ch/).
 
 Pictures: Münsterfähre (cable ferry), Basel, CH / Material ropeway, Stutz-Obsaum, CH / Seilsender Prototype with case open
 
-> ToDo: Introduction überarbeiten / validieren mit M.R.
 
 # Basic Configuration Setup Guide
 
@@ -57,7 +56,7 @@ Proceed as follows:
 - Trim the now tinned section to about 4 or 5 mm.  
   <img src="media\AudioJackWireCutting.png" alt="AudioJackWireCutting" style="width:400px;" />
 
-- Unroll the cable and make sure there are no knots. Then thread the cable through the back cover and the plastic insulator.
+- Unroll the cable and make sure there are no knots. Then thread the cable through the back cover and the plastic insulator.  
   <img src="media\AudioJackPreparation.png" alt="AudioJackPreparation" style="width:400px;" />
 
 - Apply some solder to the solder tags  
@@ -68,7 +67,7 @@ Proceed as follows:
   The polarity of the structure-borne noise sensor doesn’t matter, but I’m going with convention and treat the black wire as ground. Use the helping hand to position the wire on the longest soldering tab. Then solder the wire to the tab.  
   <img src="media\AudioJackSoldering.png" alt="AudioJackSoldering" style="width:400px;" />
 
-- Repeat for the other wire. You can use any of the two shorter tabs, they are for the left and right channel respectively.
+- Repeat for the other wire. You can use any of the two shorter tabs, they are for the left and right channel respectively.  
   <img src="media\AudioJackSoldered.png" alt="AudioJackSoldered" style="width:400px;" />
 
 - Use pliers to crimp the parts of the long tab around the black wire.  
@@ -203,11 +202,13 @@ We recommend you use VNC from this point on to remotely configure your Raspberry
 
 ### Register your Seilsender
 
+<<<<<<< HEAD
+To be able to stream your recordings to the Seilsender-Website, you have to apply for a official Streaming-Id (Mountpoint) and a password.
+=======
 To stream your recordings to the Seilsender-Website, you have to apply for an official Streaming-Id (Mountpoint) and a password. Please contact http://seilsender.ch/ to get further information.
+>>>>>>> 69d4c215a2d573ce70786e189c1fe2bff5895cde
 
 **Important:** Keep your Streaming-Id (Mountpoint) and a password in a safe place
-
-> ToDo: Prozess definieren, z.B. Webformular ausfüllen und Zustellung von 
 
 ### Set up DarkIce
 
@@ -281,10 +282,11 @@ To start DarkIce automatically on boot, integrate the script 'launch_darkice.sh'
 - DarkIce should start automatically after about a minute. Open the website https://streamout.seilsender.ch/ on your PC to see if your stream shows up.
 - If you want to stop darkice manually, open a console and enter `sudo killall darkice`
 
+**Congratulation, your Seilsender is now ready to use.**
 
 # Optional Features
 
-> ToDo (optional): Einleitender Text, evtl. Übersicht.
+The rope transmitter can be supplemented with various options. We recommend to realise at least the weatherproof housing.
 
 ## LTE USB Stick
 
@@ -339,11 +341,6 @@ All 3D-printing files  (STL files) are available for download. If the seal inser
   
 - To fix the Raspberry Pi in the universal case, we 3D print a mounting frame. Assemble the Raspberry Pi into the case. The following 3D-Model shows you how to:  
   <img src="media\CaseWithRaspiWoPiJuice.png" alt="CaseWithRaspiWoPiJuice" style="width:600px;" />
-
-> ToDo (optional): Schrauben + Abstandhalter beschreiben
->
-> ToDo (optional): Haken zum Aufhängen / montieren des Gehäuses anbringen.
->
 
 - Connect all other Equipment into the Case:  
   <img src="media\CaseAssebled.png" alt="CaseAssebled" style="width:400px;" />
@@ -446,8 +443,6 @@ With PiJuice, the Raspberry Pi can be shut down and started up again in a time-c
     `timedatectl status`  
     and check if universal time and RTC time match.
 
-> ToDo (optional): Screenshot von Seilsender mit allen drei Zeiten einfügen
-
 - After a restart, the system time must be automatically fetched from the RTC.  Configuration:
   - Open the auto-start scrip rc.local with the Nano editor:  
     `sudo nano /etc/rc.local`
@@ -457,17 +452,3 @@ With PiJuice, the Raspberry Pi can be shut down and started up again in a time-c
      It should look like this:  
     <img src="media\ScrPiJuiceHwclock.png" alt="ScrPiJuiceHwclock" style="width:400px;" />
   - Save with CTRL+O, then press Enter to confirm filename and exit Nano editor with CTRL+X.
-
-## Solar Power Supply
-
-Coming Soon...
-
-> ToDo: Setup beschreiben
-
-Required parts:
-
-| Quantity | Part                   | Type & Product Link                                          |
-| -------- | ---------------------- | ------------------------------------------------------------ |
-| 1        | Power Management Board | PiJuice HAT, includes 4x Mounting posts attached to PiJuice, 8x mounting screws (4 are already assembled to the board), [product link](https://www.distrelec.ch/de/pijuice-ups-hat-fuer-raspberry-pi-pi-supply-pis-0212/p/30163344) |
-|          |                        |                                                              |
-
