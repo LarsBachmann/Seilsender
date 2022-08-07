@@ -202,11 +202,7 @@ We recommend you use VNC from this point on to remotely configure your Raspberry
 
 ### Register your Seilsender
 
-<<<<<<< HEAD
-To be able to stream your recordings to the Seilsender-Website, you have to apply for a official Streaming-Id (Mountpoint) and a password.
-=======
 To stream your recordings to the Seilsender-Website, you have to apply for an official Streaming-Id (Mountpoint) and a password. Please contact http://seilsender.ch/ to get further information.
->>>>>>> 69d4c215a2d573ce70786e189c1fe2bff5895cde
 
 **Important:** Keep your Streaming-Id (Mountpoint) and a password in a safe place
 
