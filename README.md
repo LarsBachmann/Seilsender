@@ -375,7 +375,7 @@ The microphone input of the USB sound card from the basic configuration is not v
   `alsamixer`
 - Press F6, select 'IQaudIOCODEC' and press Enter  
   <img src="media\ScrCodecZeroSelectSoundCard.png" alt="ScrCodecZeroSelectSoundCard" style="width:400px;" />
-- Press F4 for capture settings, move with the cursor to 'Mic 2' and then set the level with Up key to the max  
+- Press F4 for capture settings, move with the cursor to 'Mic 1' and then set the level with Up key to the min (internal mic), then move to 'Mic 2' and then set the level with Up key to the max (external mic).  
   <img src="media\ScrCodecZeroSelectMicLevel.png" alt="ScrCodecZeroSelectMicLevel" style="width:400px;" />
 - The record level can be adjusted anytime with alsamixer.
 - If F5 is pressed, almost all codec parameters can be adjusted (see codec data sheet, [link](https://www.renesas.com/eu/en/products/analog-products/audio-video/audio-codecs/da7212-ultra-low-power-stereo-codec-650-w-always-power-mode)).
