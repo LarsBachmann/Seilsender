@@ -75,7 +75,7 @@ Proceed as follows:
   The polarity of the structure-borne noise sensor doesn’t matter, but I’m going with convention and treat the black wire as ground. Use the helping hand to position the wire on the longest soldering tab. Then solder the wire to the tab.  
   <img src="media\AudioJackSoldering.png" alt="AudioJackSoldering" style="width:400px;" />
 
-- Repeat for the other wire. You can use any of the two shorter tabs, they are for the left and right channel respectively.  
+- Solder the other wire to the shorter, central soldering tab.  
   <img src="media\AudioJackSoldered.png" alt="AudioJackSoldered" style="width:400px;" />
 
 - Use pliers to crimp the parts of the long tab around the black wire.  
