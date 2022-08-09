@@ -76,9 +76,9 @@ Proceed as follows:
 - Pull the plastic insulation over the solder tabs and screw the cover on. The Connector is now done!
   <img src="media\AudioJackInsulation.png" alt="AudioJackInsuliation" style="width:300px;" />  <img src="media\AudioJackAssembled.png" alt="AudioJackAssembled" style="width:300px;" />
 
--  It is important that the structure-borne noise sensor is firmly mounted to the rope way cable. One way to achieve this is to screw the sensor to a screw clamp. Drill a 4.2 mm diameter hole about 12 mm deep in the top of the clamp. Then use a tap to cut an M5 thread in the hole. Lightly oil the tap and clean the hole in between (metal chips fall down):  
+-  It is important that the structure-borne noise sensor is firmly mounted to the rope way cable. One way to achieve this is to mount the sensor to a screw clamp. Drill a 4.2 mm diameter hole about 12 mm deep in the top of the clamp. Then use a tap to cut an M5 thread in the hole. Lightly oil the tap and clean the hole in between (metal chips fall into the hole and can cause the tap to break):  
   <img src="media\ImgSrewClampDrilling.png" alt="ImgSrewClampDrilling" style="width:300px;" /> <img src="media\ImgSrewClampCutAThread.png" alt="ImgSrewClampCutAThread" style="width:300px;" />
-- Saw off an approx. 20mm long piece from an M5 threaded rod or an M5 screw. Clean the sawed-off end with a file. Then screw the threaded piece into the M5 thread in the screw clamp and screw the pickup on top. For strain relief, the cables are fixed with cable ties.  
+- Saw off an approx. 20mm long piece from an M5 threaded rod or an M5 screw. Clean the sawed-off end with a file. Then screw the threaded bolt into the new M5 thread in the clamp and mount the pickup. Fasten the cable with cable ties for strain relief. Use a knot (e.g. a 'Clove hitch') on the lower cable tie.  
   <img src="media\ImgSrewClampThreadedRod.png" alt="ImgSrewClampThreadedRod" style="width:300px;" /> <img src="media\ImgSrewClampMountedPickup.png" alt="ImgSrewClampMountedPickup" style="width:300px;" />
 
 ## Setting up your Raspberry Pi
