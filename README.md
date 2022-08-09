@@ -451,8 +451,8 @@ With PiJuice, the Raspberry Pi can be shut down and started up again in a time-c
     <img src="media\ScrPiJuiceHwclock.png" alt="ScrPiJuiceHwclock" style="width:400px;" />
   - Save with CTRL+O, then press Enter to confirm filename and exit Nano editor with CTRL+X.
   
-
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+___
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
