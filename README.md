@@ -78,7 +78,7 @@ Proceed as follows:
 
 -  It is important that the structure-borne noise sensor is firmly mounted to the rope way cable. One way to achieve this is to screw the sensor to a screw clamp. Drill a 4.2 mm diameter hole about 12 mm deep in the top of the clamp. Then use a tap to cut an M5 thread in the hole. Lightly oil the tap and clean the hole in between (metal chips fall down):  
   <img src="media\ImgSrewClampDrilling.png" alt="ImgSrewClampDrilling" style="width:300px;" /> <img src="media\ImgSrewClampCutAThread.png" alt="ImgSrewClampCutAThread" style="width:300px;" />
-- Saw off an approx. 20mm long piece from an M5 threaded rod or an M5 screw. Clean the sawed-off end with a file. Then screw the threaded piece into the M5 thread in the screw clamp and screw the pickup on top.
+- Saw off an approx. 20mm long piece from an M5 threaded rod or an M5 screw. Clean the sawed-off end with a file. Then screw the threaded piece into the M5 thread in the screw clamp and screw the pickup on top. For strain relief, the cables are fixed with cable ties.
   <img src="media\ImgSrewClampThreadedRod.png" alt="ImgSrewClampThreadedRod" style="width:300px;" /> <img src="media\ImgSrewClampMountedPickup.png" alt="ImgSrewClampMountedPickup" style="width:300px;" />
 
 ## Setting up your Raspberry Pi
