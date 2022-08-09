@@ -11,6 +11,14 @@ You can find more information at [seilsender.ch](https://www.seilsender.ch/).
 
 Pictures: Münsterfähre (cable ferry), Basel, CH / Material ropeway, Stutz-Obsaum, CH / Seilsender Prototype with case open
 
+**Project team:**  
+- Initiator: Michel Roth, Composer, Lecturer for composition and music theory, FHNW Academy of Music Basel, Switzerland  
+- Development: Lars Bachmann, student, FHNW School of Engineering Brugg-Windisch, Switzerland  
+- Consulting: Prof. Dr. Hanspeter Schmid, Lecturer for Microelectronics and Signal Processing, FHNW Institute for Sensors and Electronics Brugg-Windisch, Switzerland  
+- Web development: Hannes Barfuss, Research & Development Assistant, FHNW Academy of Music Basel/Switzerland  
+
+
+
 
 # Basic Configuration Setup Guide
 
