@@ -447,8 +447,8 @@ With PiJuice, the Raspberry Pi can be shut down and started up again in a time-c
   - Reconnect battery and start Raspberry Pi
   - To get time status, type  
     `timedatectl status`  
-    and check if universal time and RTC time match.
-
+    and check if 'Universal time' and 'RTC time' match:  
+    <img src="media\ScrPiJuiceRtc.png" alt="ScrPiJuiceRtc" style="width:400px;" />
 - After a restart, the system time must be automatically fetched from the RTC.  Configuration:
   - Open the auto-start scrip rc.local with the Nano editor:  
     `sudo nano /etc/rc.local`
