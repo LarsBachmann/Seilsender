@@ -1,9 +1,3 @@
---- 
-title: "How to build your own Seilsender"
-author: "Lars Bachmann"
-date: 2022-08-11
----
-
 # Introduction
 Have you ever listened to the gentle sound of a cable car rope? These ropes react to wind, thermal forces, earth movements, birds and human activity, acting as resonating bodies that show almost fascinating, often complex and long-lasting progressions.
 
@@ -21,7 +15,7 @@ Pictures: Münsterfähre (cable ferry), Basel, CH / Material ropeway, Stutz-Obsa
 - Initiator: Michel Roth, Composer, Lecturer for composition and music theory, FHNW Academy of Music Basel, Switzerland  
 - Development: Lars Bachmann, student, FHNW School of Engineering Brugg-Windisch, Switzerland  
 - Consulting: Prof. Dr. Hanspeter Schmid, Lecturer for Microelectronics and Signal Processing, FHNW Institute for Sensors and Electronics Brugg-Windisch, Switzerland  
-- Web development: Hannes Barfuss, Research & Development Assistant, FHNW Academy of Music Basel/Switzerland  
+- Web development: Hannes Barfuss, Research & Development Assistant, FHNW Academy of Music Basel, Switzerland  
 
 
 
