@@ -1,5 +1,5 @@
 --- 
-title: "How to build your own Seilsener."
+title: "How to build your own Seilsender"
 author: "Lars Bachmann"
 date: 2022-08-11
 ---
