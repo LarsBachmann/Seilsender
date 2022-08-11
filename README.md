@@ -300,7 +300,7 @@ To start DarkIce automatically on boot, integrate the script 'launch_darkice.sh'
 
 The rope transmitter can be supplemented with various options. We recommend to realise at least the weatherproof housing.
 
-## LTE USB Stick
+## LTE USB Stick <a name="LteUsbStick"></a>
 
 Required parts:
 
