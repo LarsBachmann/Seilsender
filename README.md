@@ -258,7 +258,7 @@ DarkIce records audio from an audio interface (e.g. sound card), encodes it and 
     into the console. DarkIce will start streaming:  
     <img src="media\ScrDarkiceStart.png" alt="ScrDarkiceStart" style="width:700px;" />
   - The warning 'Could not set POSIX real-time scheduling...' can be ignored.
-  - Open the URL https://streamout.seilsender.ch/ on your PC and check if your stream is listed:  
+  - Open the URL https://streamout.seilsender.ch:8443/ on your PC and check if your stream is listed:  
       <img src="media\ScrIcecast2Test.png" alt="ScrIcecast2Test" style="width:300px;" />
   - Click the play-icon below your mount point. You should hear the sound your structure-borne noise sensor is recording. Please note that there can be a few seconds of delay.
 - To stop streaming with DarkIce, press CTRL+C in the console-window.
