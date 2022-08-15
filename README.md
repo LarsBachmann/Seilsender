@@ -403,6 +403,8 @@ The PiJuice HAT is a very helpful add-on if you want to use your Raspberry Pi in
 
 The built-in battery can, for example, bridge power failures and, in the event of longer power failures, the Raspberry pi can shut down properly and restart later when the power supply is restored.
 
+**Warning: There is an unresolved conflict beteween the PiJuice an the IQAudio HAT.**
+
 Required parts:
 
 | Quantity | Part                   | Type & Product Link                                          |
